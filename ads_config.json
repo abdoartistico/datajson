@@ -11,7 +11,8 @@
     "ad_on_add_playlist": true,
     "ad_on_vod_tab": true,
     "ad_on_channel_click": true,
-    "ad_on_app_open": true
+    "ad_on_app_open": true,
+    "ad_on_home_native": true
   },
   "settings": {
     "channel_click_threshold": 4,
