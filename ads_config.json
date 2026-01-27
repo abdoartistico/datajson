@@ -12,7 +12,7 @@
     "ad_on_vod_tab": true,
     "ad_on_channel_click": true,
     "ad_on_app_open": true,
-    "ad_on_home_native": true
+    "ad_on_home_native": true,
     "ad_on_import_click": true
   },
   "settings": {
