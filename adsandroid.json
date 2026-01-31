@@ -1,0 +1,31 @@
+{
+  "ads_enabled": true,
+  "show_ads_for_premium": false,
+  "channel_click_threshold": 4,
+  "interstitial": {
+    "enabled": true,
+    "cooldown_seconds": 30,
+    "show_on_import_buttons": true,
+    "show_on_tab_switch": true
+  },
+  "app_open": {
+    "enabled": true,
+    "cooldown_seconds": 60
+  },
+  "native": {
+    "enabled": true,
+    "show_on_home": true
+  },
+  "ad_unit_ids": {
+    "ios": {
+      "interstitial": "ca-app-pub-3940256099942544/4411468910",
+      "appOpen": "ca-app-pub-3940256099942544/5575463023",
+      "native": "ca-app-pub-3940256099942544/3986624511"
+    },
+    "android": {
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "appOpen": "ca-app-pub-3940256099942544/3419835294",
+      "native": "ca-app-pub-3940256099942544/2247696110"
+    }
+  }
+}
