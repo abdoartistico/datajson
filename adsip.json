@@ -1,5 +1,5 @@
 {
-  "ads_enabled": true,
+  "ads_enabled": false,
   "interstitial": {
     "enabled": true,
     "cooldown_seconds": 30,
