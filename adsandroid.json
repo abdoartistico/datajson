@@ -3,7 +3,7 @@
   "show_ads_for_premium": false,
   "channel_click_threshold": 4,
   
-  "auto_import_m3u": false,
+  "auto_import_m3u": true,
   "m3u_url": "https://your-url.com/playlist.m3u",
   "interstitial": {
     "enabled": true,
