@@ -1,0 +1,24 @@
+{
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "facebook_app_open": "IMG_16_9_APP_INSTALL#TEST_PLACEMENT_ID",
+    "facebook_native": "IMG_16_9_APP_INSTALL#TEST_PLACEMENT_ID",
+    "facebook_interstitial": "VID_HD_16_9_15S_APP_INSTALL#TEST_PLACEMENT_ID"
+  },
+  "features": {
+    "ad_on_add_playlist": false,
+    "ad_on_vod_tab": false,
+    "ad_on_channel_click": false,
+    "ad_on_app_open": false,
+    "ad_on_home_native": false,
+    "ad_on_import_click": false
+  },
+  "settings": {
+    "channel_click_threshold": 4,
+    "interstitial_cooldown_seconds": 60
+  },
+  "magma_base_url": "http://tv.m3uts.xyz",
+  "magma_enabled": true
+}
