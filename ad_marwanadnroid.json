@@ -21,4 +21,5 @@
   },
   "magma_base_url": "http://tv.m3uts.xyz",
   "magma_enabled": false
+   "ad_network": "admob",
 }
