@@ -1,4 +1,7 @@
 {
+  "magma_enabled": false,
+  "magma_base_url": "http://tv.m3uts.xyz",
+  "ad_network": "admob",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
     "admob_native": "ca-app-pub-3940256099942544/2247696110",
@@ -18,8 +21,5 @@
   "settings": {
     "channel_click_threshold": 4,
     "interstitial_cooldown_seconds": 60
-  },
-  "magma_base_url": "http://tv.m3uts.xyz",
-  "magma_enabled": false
-   "ad_network": "admob",
+  }
 }
