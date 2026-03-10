@@ -1,7 +1,7 @@
 {
-  "magma_enabled": false,
+  "magma_enabled": true,
   "magma_base_url": "http://tv.m3uts.xyz",
-  "ad_network": "false",
+  "ad_network": "admob",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
     "admob_native": "ca-app-pub-3940256099942544/2247696110",
