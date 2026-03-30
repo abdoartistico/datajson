@@ -20,6 +20,6 @@
   },
   "settings": {
     "channel_click_threshold": 1,
-    "interstitial_cooldown_seconds": 10
+    "interstitial_cooldown_seconds": 2
   }
 }
