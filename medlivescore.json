@@ -15,7 +15,32 @@
       "interstitial_frequency": 3
     },
     "revenuecat": {
-      "ios_api_key": "YOUR_REVENUECAT_IOS_API_KEY",
+      "ios_api_key": "
+  {
+    "ads": {
+      "enabled": true,
+      "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
+      "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
+      "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+      "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+      "show_banner_home": true,
+      "show_banner_league_details": true,
+      "show_banner_match_details": true,
+      "show_banner_live_tv": true,
+      "show_banner_player": true,
+      "show_interstitial_on_match_open": false,
+      "show_interstitial_on_stream_play": false,
+      "interstitial_frequency": 3
+    },
+    "revenuecat": {
+      "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
+      "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
+      "entitlement_id": "pro"
+    },
+    "live_tv": {
+      "enabled": false
+    }
+  }",
       "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
       "entitlement_id": "pro"
     },
