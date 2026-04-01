@@ -20,6 +20,6 @@
       "entitlement_id": "pro"
     },
     "live_tv": {
-      "enabled": false
+      "enabled": true
     }
   }
