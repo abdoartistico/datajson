@@ -21,5 +21,10 @@
     },
     "live_tv": {
       "enabled": true
-    }
+    },"review": {   
+      "enabled": true,
+      "min_opens_before_prompt": 5,                                                                                            
+      "days_between_prompts": 7,
+      "app_store_id": "YOUR_APP_STORE_ID"                                                                                      
+  }     
   }
