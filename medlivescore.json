@@ -1,22 +1,25 @@
 {
-   "ads": {                                                        
+                                                                   
+  "ads": {                                                                                                                     
       "enabled": true,                                                                                                         
       "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
+      "android_banner_id": "ca-app-pub-3940256099942544/6300978111",                                                           
       "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",                                                         
-      "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",
-      "ios_native_id": "ca-app-pub-3940256099942544/3986624511",                                                               
-      "show_banner_home": true,                                   
-      "show_banner_league_details": true,                                                                                      
+      "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",                                                     
+      "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",                                                             
+      "ios_native_id": "ca-app-pub-3940256099942544/3986624511",  
+      "show_banner_home": true,                                                                                                
+      "show_banner_league_details": true,                         
       "show_banner_match_details": true,                                                                                       
-      "show_banner_live_tv": true,
+      "show_banner_live_tv": true,                                
       "show_banner_player": true,                                                                                              
-      "show_interstitial_on_match_open": false,                   
-      "show_interstitial_on_stream_play": false,
-      "interstitial_frequency": 3,                                                                                             
+      "show_interstitial_on_match_open": false,
+      "show_interstitial_on_stream_play": false,                                                                               
+      "interstitial_frequency": 3,                                
       "show_app_open": true,
       "show_native_live_tv": true,                                                                                             
-      "show_native_home": false                                   
-  },
+      "show_native_home": false
+  }                       ,
     "revenuecat": {
       "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
       "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
