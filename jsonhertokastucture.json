@@ -1,51 +1,55 @@
-{            
-    "magma_enabled": false,                                                                                             
-    "magma_base_url": "http://tv.m3uts.xyz",
-    "ad_network": "none",
+{                                                                                                                            
+    "magma_enabled": true,                                  
+    "magma_base_url": "http://tv.m3uts.xyz",                                                                                   
+    "ad_network": "admob",                                                                                                     
     "ad_ids": {                                                                                                                
       "admob_app_open": "ca-app-pub-9226460292501375/8402150102",                                                              
       "admob_native": "ca-app-pub-9226460292501375/4326136313",                                                                
       "admob_interstitial": "ca-app-pub-9226460292501375/8143024606",                                                          
       "facebook_app_open": "1674599797290704_1674599960624021",                                                                
-      "facebook_native": "1674599797290704_1674985243918826",
-      "facebook_interstitial": "1674599797290704_1674599963957354"                                                             
-    },                                                      
+      "facebook_native": "1674599797290704_1674985243918826",                                                                  
+      "facebook_interstitial": "1674599797290704_1674599963957354",                                                            
+      "pangle_app_id": "YOUR_PANGLE_APP_ID",                                                                                   
+      "pangle_app_open": "YOUR_PANGLE_APP_OPEN_SLOT",                                                                          
+      "pangle_native": "YOUR_PANGLE_NATIVE_SLOT",                                                                              
+      "pangle_interstitial": "YOUR_PANGLE_INTERSTITIAL_SLOT"                                                                   
+    },                                                                                                                         
     "features": {                                                                                                              
       "ad_on_add_playlist": true,                           
       "ad_on_vod_tab": true,                                                                                                   
-      "ad_on_channel_click": true,
-      "ad_on_app_open": true,                                                                                                  
-      "ad_on_home_native": true,                            
-      "ad_on_import_click": true
+      "ad_on_channel_click": true,                                                                                             
+      "ad_on_app_open": true,
+      "ad_on_home_native": true,                                                                                               
+      "ad_on_import_click": true                            
     },                                                                                                                         
-    "settings": {
+    "settings": {                                           
       "channel_click_threshold": 3,                                                                                            
       "interstitial_cooldown_seconds": 10                   
-    },
+    },                                                                                                                         
     "review": {
-      "enabled": false,                                                                                                         
-      "min_opens_before_prompt": 5,
+      "enabled": true,                                                                                                         
+      "min_opens_before_prompt": 5,                         
       "days_between_prompts": 7,                                                                                               
-      "play_store_id": ""                                   
-    },
-    "maintenance": {
-      "enabled": false,                                                                                                        
-      "title": "Scheduled Maintenance",
-      "message": "We're updating our servers. Please try again later.",                                                        
-      "show_retry": true                                    
+      "play_store_id": ""                                                                                                      
     },                                                                                                                         
-    "update": {
-      "enabled": false,                                                                                                        
-      "title": "New Version Available",                     
-      "message": "Please download our new app to continue.",
-      "new_package_name": "com.your.newapp"
+    "maintenance": {                                                                                                           
+      "enabled": false,                                     
+      "title": "Scheduled Maintenance",                                                                                        
+      "message": "We're updating our servers. Please try again later.",
+      "show_retry": true                                                                                                       
+    },                                                      
+    "update": {                                                                                                                
+      "enabled": false,                                     
+      "title": "New Version Available",
+      "message": "Please download our new app to continue.",                                                                   
+      "new_package_name": "com.your.newapp"                                                                                    
     },                                                                                                                         
-    "telegram": {
+    "telegram": {                                                                                                              
       "enabled": false,                                                                                                        
-      "title": "Join our Community",                        
-      "message": "Get updates and support on our Telegram channel!",
-      "channel_url": "https://t.me/yourchannel",
-      "min_opens_before_prompt": 3,                                                                                            
-      "days_between_prompts": 3
-    }                                                                                                                          
-  }       
+      "title": "Join our Community",
+      "message": "Get updates and support on our Telegram channel!",                                                           
+      "channel_url": "https://t.me/yourchannel",                                                                               
+      "min_opens_before_prompt": 3,
+      "days_between_prompts": 3                                                                                                
+    }                                                       
+  }          
