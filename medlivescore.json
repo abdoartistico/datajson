@@ -1,36 +1,50 @@
 {
-                                                                   
-  "ads": {                                                                                                                     
-      "enabled": true,                                                                                                         
-      "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
-      "android_banner_id": "ca-app-pub-3940256099942544/6300978111",                                                           
-      "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",                                                         
-      "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",                                                     
-      "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",                                                             
-      "ios_native_id": "ca-app-pub-3940256099942544/3986624511",  
-      "show_banner_home": true,                                                                                                
-      "show_banner_league_details": true,                         
-      "show_banner_match_details": true,                                                                                       
-      "show_banner_live_tv": true,                                
-      "show_banner_player": true,                                                                                              
-      "show_interstitial_on_match_open": true,
-      "show_interstitial_on_stream_play": true,                                                                               
-      "interstitial_frequency": 1,                                
-      "show_app_open": true,
-      "show_native_live_tv": true,                                                                                             
-      "show_native_home": true
-  }                       ,
-    "revenuecat": {
-      "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
-      "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
-      "entitlement_id": "pro"
-    },
-    "live_tv": {
-      "enabled": true
-    },"review": {   
-      "enabled": true,
-      "min_opens_before_prompt": 1,                                                                                            
-      "days_between_prompts": 1,
-      "app_store_id": "id6497060805"                                                                                      
-  }     
+  "ads": {
+    "enabled": true,
+    "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
+    "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
+    "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+    "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",
+    "ios_native_id": "ca-app-pub-3940256099942544/3986624511",
+    "show_banner_home": true,
+    "show_banner_league_details": true,
+    "show_banner_match_details": true,
+    "show_banner_live_tv": true,
+    "show_banner_player": true,
+    "show_interstitial_on_match_open": true,
+    "show_interstitial_on_stream_play": true,
+    "interstitial_frequency": 1,
+    "show_app_open": true,
+    "show_native_live_tv": true,
+    "show_native_home": true
+  },
+  "revenuecat": {
+    "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
+    "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
+    "entitlement_id": "pro"
+  },
+  "live_tv": {
+    "enabled": true
+  },
+  "review": {
+    "enabled": true,
+    "min_opens_before_prompt": 1,
+    "days_between_prompts": 1,
+    "app_store_id": "id6497060805"
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please download our new app to continue.",
+    "app_store_url": "https://apps.apple.com/app/id6497060805"
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "https://t.me/yourchannel",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
   }
+}
