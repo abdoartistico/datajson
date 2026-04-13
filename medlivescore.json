@@ -44,7 +44,7 @@
     "title": "Join our Community",
     "message": "Get updates and support on our Telegram channel!",
     "channel_url": "https://t.me/yourchannel",
-    "min_opens_before_prompt": 3,
-    "days_between_prompts": 3
+    "min_opens_before_prompt": 1,
+    "days_between_prompts": 1
   }
 }
