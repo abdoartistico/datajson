@@ -28,19 +28,19 @@
     "enabled": true
   },
   "review": {
-    "enabled": true,
+    "enabled": false,
     "min_opens_before_prompt": 1,
     "days_between_prompts": 1,
     "app_store_id": "id6497060805"
   },
   "update": {
-    "enabled": true,
+    "enabled": false,
     "title": "New Version Available",
     "message": "Please download our new app to continue.",
     "app_store_url": "https://apps.apple.com/app/id6497060805"
   },
   "telegram": {
-    "enabled": false,
+    "enabled": true,
     "title": "Join our Community",
     "message": "Get updates and support on our Telegram channel!",
     "channel_url": "https://t.me/yourchannel",
