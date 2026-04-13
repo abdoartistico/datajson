@@ -34,7 +34,7 @@
     "app_store_id": "id6497060805"
   },
   "update": {
-    "enabled": false,
+    "enabled": true,
     "title": "New Version Available",
     "message": "Please download our new app to continue.",
     "app_store_url": "https://apps.apple.com/app/id6497060805"
