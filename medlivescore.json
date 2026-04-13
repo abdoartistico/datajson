@@ -14,7 +14,7 @@
     "show_banner_player": true,
     "show_interstitial_on_match_open": true,
     "show_interstitial_on_stream_play": true,
-    "interstitial_frequency": 1,
+    "interstitial_frequency": 3,
     "show_app_open": true,
     "show_native_live_tv": true,
     "show_native_home": true
@@ -25,12 +25,12 @@
     "entitlement_id": "pro"
   },
   "live_tv": {
-    "enabled": true
+    "enabled": false
   },
   "review": {
     "enabled": false,
-    "min_opens_before_prompt": 1,
-    "days_between_prompts": 1,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
     "app_store_id": "id6497060805"
   },
   "update": {
@@ -40,11 +40,11 @@
     "app_store_url": "https://apps.apple.com/app/id6497060805"
   },
   "telegram": {
-    "enabled": true,
+    "enabled": false,
     "title": "Join our Community",
     "message": "Get updates and support on our Telegram channel!",
     "channel_url": "https://t.me/yourchannel",
-    "min_opens_before_prompt": 1,
-    "days_between_prompts": 1
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
   }
 }
