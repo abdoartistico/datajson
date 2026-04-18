@@ -28,16 +28,16 @@
     "enabled": true
   },
   "review": {
-    "enabled": false,
-    "min_opens_before_prompt": 5,
-    "days_between_prompts": 7,
-    "app_store_id": "id6497060805"
+    "enabled": true,
+    "min_opens_before_prompt": 1,
+    "days_between_prompts": 1,
+    "app_store_id": "id6761486175"
   },
   "update": {
     "enabled": false,
     "title": "New Version Available",
     "message": "Please download our new app to continue.",
-    "app_store_url": "https://apps.apple.com/app/id6497060805"
+    "app_store_url": "https://apps.apple.com/app/id6761486175"
   },
   "telegram": {
     "enabled": false,
