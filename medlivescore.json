@@ -1,6 +1,7 @@
 {
   "ads": {
     "enabled": true,
+    "platform": "admob",
     "ios_banner_id": "ca-app-pub-9226460292501375/2279030232",
     "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
     "ios_interstitial_id": "ca-app-pub-9226460292501375/6110464034",
@@ -17,7 +18,11 @@
     "interstitial_frequency": 3,
     "show_app_open": true,
     "show_native_live_tv": true,
-    "show_native_home": true
+    "show_native_home": true,
+    "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
+    "unity_banner_ad_unit_id": "YOUR_BANNER_AD_UNIT_ID",
+    "unity_interstitial_ad_unit_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
+    "unity_native_ad_unit_id": "YOUR_NATIVE_AD_UNIT_ID"
   },
   "revenuecat": {
     "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
