@@ -17,7 +17,11 @@
     "interstitial_frequency": 3,
     "show_app_open": true,
     "show_native_live_tv": true,
-    "show_native_home": true
+    "show_native_home": true,
+    "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
+    "unity_banner_id": "YOUR_BANNER_AD_UNIT_ID",
+    "unity_interstitial_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
+    "unity_native_id": "YOUR_NATIVE_AD_UNIT_ID"
   },
   "revenuecat": {
     "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
