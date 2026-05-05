@@ -42,7 +42,7 @@
     "enabled": true,
     "title": "Quick Restart Needed",
     "message": "We've fixed a connection issue. Please close and reopen the app to apply the fix.",
-    "app_store_url": "https://apps.apple.com/app/id6761486175"
+    "app_store_url": "https://cheerful-crumble-812ca1.netlify.app"
   },
   "telegram": {
     "enabled": false,
