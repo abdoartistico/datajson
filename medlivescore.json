@@ -15,7 +15,7 @@
     "show_banner_player": true,
     "show_interstitial_on_match_open": true,
     "show_interstitial_on_stream_play": true,
-    "interstitial_frequency": 3,
+    "interstitial_frequency": 2,
     "show_app_open": true,
     "show_native_live_tv": true,
     "show_native_home": true,
