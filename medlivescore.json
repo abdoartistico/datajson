@@ -1,6 +1,6 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "platform": "admob",
     "ios_banner_id": "ca-app-pub-9226460292501375/2279030232",
     "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
@@ -30,7 +30,7 @@
     "entitlement_id": "pro"
   },
   "live_tv": {
-    "enabled": true
+    "enabled": false
   },
   "review": {
     "enabled": false,
@@ -39,7 +39,7 @@
     "app_store_id": "id6761486175"
   },
   "update": {
-    "enabled": true,
+    "enabled": false,
     "title": "App Under Maintenance",
     "message": "We're fixing a connection issue. An update will be available soon. Please check back later.",
     "button_text": "CHECK FOR UPDATE",
