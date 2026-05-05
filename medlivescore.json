@@ -43,7 +43,8 @@
     "title": "App Under Maintenance",
     "message": "We're fixing a connection issue. An update will be available soon. Please check back later.",
     "button_text": "CHECK FOR UPDATE",
-    "app_store_url": "https://cheerful-crumble-812ca1.netlify.app"
+    "min_version": "1.3.0",
+    "app_store_url": "https://apps.apple.com/app/id6761486175"
   },
   "telegram": {
     "enabled": false,
