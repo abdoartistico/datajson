@@ -30,7 +30,7 @@
     "entitlement_id": "pro"
   },
   "live_tv": {
-    "enabled": true
+    "enabled": false
   },
   "review": {
     "enabled": false,
