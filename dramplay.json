@@ -1,0 +1,57 @@
+{
+  "ads": {
+    "enabled": true,
+    "platform": "admob",
+    "ios_banner_id": "ca-app-pub-9226460292501375/2279030232",
+    "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
+    "ios_interstitial_id": "ca-app-pub-9226460292501375/6110464034",
+    "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "ios_app_open_id": "ca-app-pub-9226460292501375/7675886637",
+    "ios_native_id": "ca-app-pub-9226460292501375/6529279748",
+    "show_banner_home": true,
+    "show_banner_league_details": true,
+    "show_banner_match_details": true,
+    "show_banner_live_tv": true,
+    "show_banner_player": true,
+    "show_interstitial_on_match_open": true,
+    "show_interstitial_on_stream_play": true,
+    "interstitial_frequency": 2,
+    "show_app_open": true,
+    "show_native_live_tv": true,
+    "show_native_home": true,
+    "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
+    "unity_banner_id": "YOUR_BANNER_AD_UNIT_ID",
+    "unity_interstitial_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
+    "unity_native_id": "YOUR_NATIVE_AD_UNIT_ID"
+  },
+  "revenuecat": {
+    "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
+    "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
+    "entitlement_id": "pro"
+  },
+  "live_tv": {
+    "enabled": true
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 1,
+    "days_between_prompts": 1,
+    "app_store_id": "id6761486175"
+  },
+  "update": {
+    "enabled": true,
+    "title": "UPDATE NOW",
+    "message": "We're fixing a connection issue. An update is available now. Please update.",
+    "button_text": "update now",
+    "min_version": "1.3.0",
+    "app_store_url": "https://apps.apple.com/app/id6761486175"
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "https://t.me/yourchannel",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  }
+}
