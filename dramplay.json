@@ -20,9 +20,16 @@
     "show_native_live_tv": true,
     "show_native_home": true,
     "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
-    "unity_banner_id": "YOUR_BANNER_AD_UNIT_ID",
-    "unity_interstitial_id": "YOUR_INTERSTITIAL_AD_UNIT_ID",
-    "unity_native_id": "YOUR_NATIVE_AD_UNIT_ID"
+    "unity_banner_id": "YOUR_LEVELPLAY_BANNER_AD_UNIT_ID",
+    "unity_interstitial_id": "YOUR_LEVELPLAY_INTERSTITIAL_AD_UNIT_ID",
+    "unity_native_id": "YOUR_LEVELPLAY_NATIVE_AD_UNIT_ID",
+    "pangle_app_id": "YOUR_PANGLE_APP_ID",
+    "pangle_banner_slot": "YOUR_PANGLE_BANNER_SLOT_ID",
+    "pangle_interstitial_slot": "YOUR_PANGLE_INTERSTITIAL_SLOT_ID",
+    "pangle_native_slot": "YOUR_PANGLE_NATIVE_SLOT_ID",
+    "fan_banner_placement": "YOUR_META_BANNER_PLACEMENT_ID",
+    "fan_interstitial_placement": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
+    "fan_native_placement": "YOUR_META_NATIVE_PLACEMENT_ID"
   },
   "revenuecat": {
     "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
@@ -41,8 +48,8 @@
   "update": {
     "enabled": true,
     "title": "UPDATE NOW",
-    "message": "We're fixing a connection issue. An update is available now. Please update.",
-    "button_text": "update now",
+    "message": "We are fixing a connection issue. An update is available now. Please update.",
+    "button_text": "Update Now",
     "min_version": "1.3.0",
     "app_store_url": "https://apps.apple.com/app/id6761486175"
   },
