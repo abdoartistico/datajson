@@ -27,6 +27,7 @@
     "pangle_banner_slot": "YOUR_PANGLE_BANNER_SLOT_ID",
     "pangle_interstitial_slot": "YOUR_PANGLE_INTERSTITIAL_SLOT_ID",
     "pangle_native_slot": "YOUR_PANGLE_NATIVE_SLOT_ID",
+    "pangle_splash_slot": "YOUR_PANGLE_SPLASH_SLOT_ID",
     "fan_banner_placement": "YOUR_META_BANNER_PLACEMENT_ID",
     "fan_interstitial_placement": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
     "fan_native_placement": "YOUR_META_NATIVE_PLACEMENT_ID"
