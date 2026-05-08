@@ -39,7 +39,7 @@
     "app_store_id": "id6761486175"
   },
   "update": {
-    "enabled": true,
+    "enabled": false,
     "title": "UPDATE NOW",
     "message": "We're fixing a connection issue. An update is available now. Please update.",
     "button_text": "update now",
