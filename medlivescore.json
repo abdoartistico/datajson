@@ -27,7 +27,7 @@
   "revenuecat": {
     "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
     "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
-    "entitlement_id": "pro"
+    "entitlement_id": "Golazona Pro"
   },
   "live_tv": {
     "enabled": true
