@@ -1,4 +1,3 @@
-
 {
   "ad_ids": {
     "ios_app_open": "ca-app-pub-1680614858310680/5238003514",
@@ -21,5 +20,11 @@
     "interstitial_cooldown_seconds": 10
   },
   "magma_base_url": "http://tv.m3uts.xyz",
-  "magma_enabled": true
+  "magma_enabled": true,
+  "revenuecat": {
+    "_comment": "entitlement_id MUST match the Identifier in RevenueCat dashboard EXACTLY (case + spaces). Edit this field to fix paid-but-not-premium issues without a binary release.",
+    "entitlement_id": "iptv player Pro",
+    "ios_api_key": "appl_nckSBWedXDqdzLFvvINSjWpgJDc",
+    "android_api_key": ""
+  }
 }
