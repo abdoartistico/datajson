@@ -31,20 +31,15 @@
     "fan_banner_placement": "YOUR_META_BANNER_PLACEMENT_ID",
     "fan_interstitial_placement": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
     "fan_native_placement": "YOUR_META_NATIVE_PLACEMENT_ID"
-  },
-  "revenuecat": {
-    "ios_api_key": "appl_ADLGwFlahsHpgrRfBMUFWCFNOAF",
-    "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
-    "entitlement_id": "pro"
-  },
-  "live_tv": {
+  }
+  "mangaapp": {
     "enabled": true
   },
   "review": {
     "enabled": false,
     "min_opens_before_prompt": 1,
     "days_between_prompts": 1,
-    "app_store_id": "id6761486175"
+    "palystorelink": "id6761486175"
   },
   "update": {
     "enabled": false,
@@ -52,7 +47,7 @@
     "message": "We are fixing a connection issue. An update is available now. Please update.",
     "button_text": "Update Now",
     "min_version": "1.3.0",
-    "app_store_url": "https://apps.apple.com/app/id6761486175"
+    "playstorelink": "https:/"
   },
   "telegram": {
     "enabled": false,
