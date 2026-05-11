@@ -18,7 +18,7 @@
     "unity_interstitial_id":   "",
     "unity_native_id":         "",
 
-    "show_banner": true,
+    "show_banner": false,
     "show_app_open": true,
     "show_native": false,
     "show_interstitial": true,
