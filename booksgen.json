@@ -61,5 +61,11 @@
     "min_opens_before_prompt": 3,
     "days_between_prompts": 3,
     "initial_delay_sec": 6
+  },
+
+  "support": {
+    "email": "",
+    "privacy_url": "https://raw.githubusercontent.com/abdoartistico/datajson/main/privacy.html",
+    "terms_url": "https://raw.githubusercontent.com/abdoartistico/datajson/main/privacy.html"
   }
 }
