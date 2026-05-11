@@ -1,1 +1,65 @@
+{
+  "ads": {
+    "enabled": true,
+    "platform": "admob",
 
+    "ios_banner_id":           "ca-app-pub-3940256099942544/2934735716",
+    "android_banner_id":       "ca-app-pub-3940256099942544/6300978111",
+    "ios_interstitial_id":     "ca-app-pub-3940256099942544/4411468910",
+    "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "ios_app_open_id":         "ca-app-pub-3940256099942544/5575463023",
+    "android_app_open_id":     "ca-app-pub-3940256099942544/3419835294",
+    "ios_native_id":           "ca-app-pub-3940256099942544/3986624511",
+    "android_native_id":       "ca-app-pub-3940256099942544/2247696110",
+
+    "unity_app_key_ios":       "",
+    "unity_app_key_android":   "",
+    "unity_banner_id":         "",
+    "unity_interstitial_id":   "",
+    "unity_native_id":         "",
+
+    "show_banner": true,
+    "show_app_open": true,
+    "show_native": true,
+    "show_interstitial": true,
+    "interstitial_frequency": 2,
+    "app_open_cooldown_sec": 30,
+    "app_open_min_background_sec": 5
+  },
+
+  "revenuecat": {
+    "ios_api_key":     "",
+    "android_api_key": "",
+    "entitlement_id":  "pro"
+  },
+
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please download the latest version to continue.",
+    "button_text": "UPDATE NOW",
+    "app_store_url": "https://play.google.com/store/apps/details?id=com.example.libgen_clone",
+    "min_version": "0.1.0"
+  },
+
+  "review": {
+    "enabled": true,
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 7,
+    "initial_delay_sec": 8,
+    "title": "Enjoying LibGen Reader?",
+    "message": "How would you rate your experience?",
+    "app_store_id": "0000000000"
+  },
+
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on Telegram!",
+    "button_text": "JOIN CHANNEL",
+    "channel_url": "https://t.me/your_channel",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3,
+    "initial_delay_sec": 6
+  }
+}
