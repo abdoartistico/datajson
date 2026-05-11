@@ -20,7 +20,7 @@
 
     "show_banner": true,
     "show_app_open": true,
-    "show_native": true,
+    "show_native": false,
     "show_interstitial": true,
     "interstitial_frequency": 2,
     "app_open_cooldown_sec": 30,
