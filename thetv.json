@@ -20,7 +20,7 @@
     "interstitial_cooldown_seconds": 10
   },
   "magma_base_url": "http://tv.m3uts.xyz",
-  "magma_enabled": true,
+  "magma_enabled": false,
   "revenuecat": {
     "_comment": "entitlement_id MUST match the Identifier in RevenueCat dashboard EXACTLY (case + spaces). Edit this field to fix paid-but-not-premium issues without a binary release.",
     "entitlement_id": "TheTvapp",
