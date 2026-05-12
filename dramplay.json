@@ -64,6 +64,6 @@
     "days_between_prompts": 3
   },
   "paywall": {
-    "show_on_app_open": true
+    "show_on_app_open": false
   }
 }
