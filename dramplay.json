@@ -61,5 +61,8 @@
     "channel_url": "https://t.me/yourchannel",
     "min_opens_before_prompt": 3,
     "days_between_prompts": 3
+  },
+  "paywall": {
+    "show_on_app_open": true
   }
 }
