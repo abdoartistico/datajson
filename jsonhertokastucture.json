@@ -1,6 +1,6 @@
 {
   "magma_enabled": true,
-  "magma_base_url": "http://tv.m3uts.xyz",
+  "magma_base_url": "https://restless-cloud-2626.benhadarabdessamad.workers.dev",
   "ad_network": "levelplay",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-9226460292501375/8402150102",
