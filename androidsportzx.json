@@ -1,0 +1,63 @@
+{
+  "magma_enabled": true,
+  "magma_base_url": "http://tv.m3uts.xyz",
+  "ad_network": "admob",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-2693299129302878/9371243114",
+    "admob_native": "ca-app-pub-2693299129302878/2383162935",
+    "admob_interstitial": "ca-app-pub-2693299129302878/3696244605",
+    "admob_banner": "ca-app-pub-2693299129302878/8820578779",
+    "facebook_app_open": "1674599797290704_1674599960624021",
+    "facebook_native": "1335555825050919_1335650231708145",
+    "facebook_interstitial": "1335555825050919_1335649821708186",
+    "facebook_banner": "",
+    "pangle_app_id": "YOUR_PANGLE_APP_ID",
+    "pangle_app_open": "YOUR_PANGLE_APP_OPEN_SLOT",
+    "pangle_native": "YOUR_PANGLE_NATIVE_SLOT",
+    "pangle_interstitial": "YOUR_PANGLE_INTERSTITIAL_SLOT",
+    "pangle_banner": "",
+    "levelplay_app_key": "263d86c85",
+    "levelplay_interstitial_ad_unit": "ifh1yl593sz776rc",
+    "levelplay_banner_ad_unit": "f1r23maivwrr8jvp",
+    "levelplay_native_ad_unit": "x2azanj84prh4c0g"
+  },
+  "features": {
+    "ad_on_add_playlist": true,
+    "ad_on_vod_tab": true,
+    "ad_on_channel_click": true,
+    "ad_on_app_open": true,
+    "ad_on_home_native": true,
+    "ad_on_home_banner": true,
+    "ad_on_import_click": true
+  },
+  "settings": {
+    "channel_click_threshold": 3,
+    "interstitial_cooldown_seconds": 10
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
+    "play_store_id": ""
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We're updating our servers. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please download our new app to continue.",
+    "new_package_name": "com.your.newapp"
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "https://t.me/yourchannel",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  }
+}
