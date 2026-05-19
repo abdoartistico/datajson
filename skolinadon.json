@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "app": "skolinadon m3u",
+    "bundle_id": "com.skolinadon.player",
+    "notes": "First-submission defaults. All toggles for Telegram / force-update / banner / review are OFF until app is approved and you've gathered traction.",
+    "replace_before_production": [
+      "ad_ids.* — swap Google AdMob test IDs for your real unit IDs",
+      "ads.ios_*_id and ads.android_*_id — same as above",
+      "revenuecat.ios_api_key — paste your iOS public SDK key from RevenueCat",
+      "revenuecat.android_api_key — paste your Android public SDK key",
+      "revenuecat.entitlement_id — match the exact case-sensitive entitlement string from RC dashboard",
+      "magma_base_url — set when you flip magma_enabled to true",
+      "update.app_store_url and review.app_store_id — set after App Store ID is assigned",
+      "telegram.channel_url — set to a real channel URL before enabling"
+    ]
+  },
+
+  "ad_ids": {
+    "ios_app_open": "ca-app-pub-3940256099942544/5575463023",
+    "ios_native": "ca-app-pub-3940256099942544/3986624511",
+    "ios_interstitial": "ca-app-pub-3940256099942544/4411468910",
+    "android_app_open": "ca-app-pub-3940256099942544/3419835294",
+    "android_native": "ca-app-pub-3940256099942544/2247696110",
+    "android_interstitial": "ca-app-pub-3940256099942544/1033173712"
+  },
+
+  "features": {
+    "ad_on_app_open": true,
+    "ad_on_home_native": true,
+    "ad_on_channel_click": true,
+    "ad_on_live_tab": true,
+    "ad_on_vod_tab": true,
+    "ad_on_series_tab": true,
+    "ad_on_watchlist_tab": false,
+    "ad_on_import_click": true,
+    "ad_on_add_playlist": true
+  },
+
+  "settings": {
+    "channel_click_threshold": 2,
+    "interstitial_cooldown_seconds": 10
+  },
+
+  "magma_base_url": "",
+  "magma_enabled": false,
+
+  "ads": {
+    "enabled": true,
+    "platform": "admob",
+
+    "ios_banner_id": "",
+    "android_banner_id": "",
+    "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+    "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",
+    "android_app_open_id": "ca-app-pub-3940256099942544/3419835294",
+    "ios_native_id": "ca-app-pub-3940256099942544/3986624511",
+    "android_native_id": "ca-app-pub-3940256099942544/2247696110",
+
+    "unity_app_key_ios": "",
+    "unity_app_key_android": "",
+    "unity_banner_id": "BannerPlacement",
+    "unity_interstitial_id": "DefaultInterstitial",
+    "unity_native_id": "DefaultNativeAd",
+
+    "show_banner": false,
+    "show_app_open": true,
+    "show_native": true,
+    "show_interstitial": true,
+
+    "interstitial_frequency": 2,
+    "app_open_cooldown_sec": 30,
+    "app_open_min_background_sec": 5
+  },
+
+  "revenuecat": {
+    "ios_api_key": "REPLACE_ME_RC_IOS_KEY",
+    "android_api_key": "REPLACE_ME_RC_ANDROID_KEY",
+    "entitlement_id": "premium"
+  },
+
+  "update": {
+    "enabled": false,
+    "title": "Update required",
+    "message": "A newer version of skolinadon m3u is available. Please update to continue.",
+    "button_text": "Update now",
+    "app_store_url": "https://apps.apple.com/app/idREPLACE_WITH_APP_ID",
+    "min_version": "1.0.0"
+  },
+
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 4,
+    "days_between_prompts": 7,
+    "initial_delay_sec": 10,
+    "title": "Enjoying skolinadon m3u?",
+    "message": "Your rating helps us a lot — tap a star below.",
+    "app_store_id": "REPLACE_WITH_NUMERIC_APP_ID"
+  },
+
+  "telegram": {
+    "enabled": false,
+    "title": "Join our community",
+    "message": "Get updates, fixes, and news on Telegram.",
+    "button_text": "Join channel",
+    "channel_url": "https://t.me/REPLACE_WITH_CHANNEL",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3,
+    "initial_delay_sec": 6
+  }
+}
