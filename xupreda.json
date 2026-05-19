@@ -32,10 +32,10 @@
   },
 
   "review": {
-    "enabled": false,
-    "min_opens_before_prompt": 3,
-    "days_between_prompts": 7,
-    "initial_delay_sec": 8,
+    "enabled": true,
+    "min_opens_before_prompt": 0,
+    "days_between_prompts": 0,
+    "initial_delay_sec": 0,
     "title": "Enjoying Xuper Stream?",
     "message": "How would you rate your experience?",
     "app_store_id": ""
