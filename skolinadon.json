@@ -41,8 +41,8 @@
     "interstitial_cooldown_seconds": 10
   },
 
-  "magma_base_url": "",
-  "magma_enabled": false,
+  "magma_base_url": "http://tv.m3uts.xyz",
+  "magma_enabled": true,
 
   "ads": {
     "enabled": true,
