@@ -32,7 +32,7 @@
   },
 
   "review": {
-    "enabled": true,
+    "enabled": false,
     "min_opens_before_prompt": 0,
     "days_between_prompts": 0,
     "initial_delay_sec": 0,
