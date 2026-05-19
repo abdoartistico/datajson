@@ -8,13 +8,13 @@
     "android_interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "features": {
-    "ad_on_app_open": true,
-    "ad_on_home_native": true,
-    "ad_on_channel_click": true,
-    "ad_on_live_tab": true,
-    "ad_on_vod_tab": true,
-    "ad_on_series_tab": true,
-    "ad_on_import_click": true,
+    "ad_on_app_open": false,
+    "ad_on_home_native": false,
+    "ad_on_channel_click": false,
+    "ad_on_live_tab": false,
+    "ad_on_vod_tab": false,
+    "ad_on_series_tab": false,
+    "ad_on_import_click": false,
     "ad_on_add_playlist": false
   },
   "settings": {
@@ -29,7 +29,7 @@
     "entitlement_id": "pro"
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "platform": "admob",
     "ios_banner_id": "",
     "android_banner_id": "",
@@ -45,9 +45,9 @@
     "unity_interstitial_id": "DefaultInterstitial",
     "unity_native_id": "DefaultNativeAd",
     "show_banner": false,
-    "show_app_open": true,
-    "show_native": true,
-    "show_interstitial": true,
+    "show_app_open": false,
+    "show_native": false,
+    "show_interstitial": false,
     "interstitial_frequency": 2,
     "interstitial_cooldown_sec": 10,
     "app_open_cooldown_sec": 30,
