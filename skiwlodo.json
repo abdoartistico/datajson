@@ -7,7 +7,6 @@
     "android_native": "ca-app-pub-3940256099942544/2247696110",
     "android_interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
-
   "features": {
     "ad_on_app_open": true,
     "ad_on_home_native": true,
@@ -18,25 +17,20 @@
     "ad_on_import_click": true,
     "ad_on_add_playlist": false
   },
-
   "settings": {
     "channel_click_threshold": 2,
     "interstitial_cooldown_seconds": 10
   },
-
   "magma_base_url": "http://tv.m3uts.xyz",
   "magma_enabled": true,
-
   "revenuecat": {
-    "ios_api_key": "appl_nckSBWedXDqdzLFvvINSjWpgJDc",
+    "ios_api_key": "appl_xiUnApObVWFZjDOWmTiXxWByYHg",
     "android_api_key": "",
-    "entitlement_id": "iptv player Pro"
+    "entitlement_id": "pro"
   },
-
   "ads": {
     "enabled": true,
     "platform": "admob",
-
     "ios_banner_id": "",
     "android_banner_id": "",
     "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",
@@ -45,24 +39,20 @@
     "android_app_open_id": "ca-app-pub-3940256099942544/3419835294",
     "ios_native_id": "ca-app-pub-3940256099942544/3986624511",
     "android_native_id": "ca-app-pub-3940256099942544/2247696110",
-
     "unity_app_key_ios": "",
     "unity_app_key_android": "",
     "unity_banner_id": "BannerPlacement",
     "unity_interstitial_id": "DefaultInterstitial",
     "unity_native_id": "DefaultNativeAd",
-
     "show_banner": false,
     "show_app_open": true,
     "show_native": true,
     "show_interstitial": true,
-
     "interstitial_frequency": 2,
     "interstitial_cooldown_sec": 10,
     "app_open_cooldown_sec": 30,
     "app_open_min_background_sec": 5
   },
-
   "update": {
     "enabled": false,
     "title": "Update Required",
@@ -71,17 +61,15 @@
     "app_store_url": "https://apps.apple.com/app/idREPLACE_WITH_APP_ID",
     "min_version": "1.0.0"
   },
-
   "review": {
     "enabled": false,
     "min_opens_before_prompt": 4,
     "days_between_prompts": 7,
     "initial_delay_sec": 10,
     "title": "Enjoying the app?",
-    "message": "Your rating helps us a lot — tap a star below.",
+    "message": "Your rating helps us a lot \u2014 tap a star below.",
     "app_store_id": "REPLACE_WITH_NUMERIC_APP_ID"
   },
-
   "telegram": {
     "enabled": false,
     "title": "Join our Community",
