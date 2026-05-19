@@ -20,5 +20,35 @@
     "interstitial_cooldown_seconds": 10
   },
   "magma_base_url": "http://tv.m3uts.xyz",
-  "magma_enabled": true
+  "magma_enabled": true,
+
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please download our new app to continue.",
+    "button_text": "UPDATE NOW",
+    "app_store_url": "",
+    "min_version": "1.1.0"
+  },
+
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 7,
+    "initial_delay_sec": 8,
+    "title": "Enjoying Xuper Stream?",
+    "message": "How would you rate your experience?",
+    "app_store_id": ""
+  },
+
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on Telegram!",
+    "button_text": "JOIN CHANNEL",
+    "channel_url": "",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3,
+    "initial_delay_sec": 6
+  }
 }
