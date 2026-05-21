@@ -8,19 +8,19 @@
     "android_interstitial": "ca-app-pub-3940256099942544/1033173712"
   },
   "features": {
-    "ad_on_add_playlist": false,
-    "ad_on_vod_tab": false,
-    "ad_on_channel_click": false,
-    "ad_on_app_open": false,
-    "ad_on_home_native": false,
-    "ad_on_import_click": false
+    "ad_on_add_playlist": true,
+    "ad_on_vod_tab": true,
+    "ad_on_channel_click": true,
+    "ad_on_app_open": true,
+    "ad_on_home_native": true,
+    "ad_on_import_click": true
   },
   "settings": {
     "channel_click_threshold": 2,
     "interstitial_cooldown_seconds": 10
   },
   "magma_base_url": "http://tv.m3uts.xyz",
-  "magma_enabled": false,
+  "magma_enabled": true,
 
   "update": {
     "enabled": false,
