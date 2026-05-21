@@ -1,5 +1,5 @@
 {
-  "magma_enabled": true,
+  "magma_enabled": false,
   "magma_base_url": "https://restless-cloud-2626.benhadarabdessamad.workers.dev",
   "ad_network": "admob",
   "ad_ids": {
