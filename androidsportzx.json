@@ -30,7 +30,7 @@
     "ad_on_home_native": true,
     "ad_on_home_banner": true,
     "ad_on_import_click": true,
-    "ad_on_rewarded": false
+    "ad_on_rewarded": true
   },
   "settings": {
     "channel_click_threshold": 3,
