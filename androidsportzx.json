@@ -1,7 +1,7 @@
 {
   "magma_enabled": true,
   "magma_base_url": "http://tv.m3uts.xyz",
-  "ad_network": "admob",
+  "ad_network": "meta",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-9962340446501377/5475583331",
     "admob_native": "ca-app-pub-9962340446501377/2356419808",
@@ -9,8 +9,8 @@
     "admob_banner": "ca-app-pub-2693299129302878/8820578779",
     "admob_rewarded": "ca-app-pub-9962340446501377/3475497140",
     "facebook_app_open": "1674599797290704_1674599960624021",
-    "facebook_native": "1335555825050919_1335650231708145",
-    "facebook_interstitial": "1335555825050919_1335649821708186",
+    "facebook_native": "1547023943769442_1547029177102252",
+    "facebook_interstitial": "1547023943769442_1547029053768931",
     "facebook_banner": "",
     "pangle_app_id": "YOUR_PANGLE_APP_ID",
     "pangle_app_open": "YOUR_PANGLE_APP_OPEN_SLOT",
