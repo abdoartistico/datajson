@@ -47,11 +47,11 @@
     "app_store_url": "https://apps.apple.com/app/id6761486175"
   },
   "telegram": {
-    "enabled": false,
+    "enabled": true,
     "title": "Join our Community",
-    "message": "Get updates and support on our Telegram channel!",
-    "channel_url": "https://t.me/yourchannel",
-    "min_opens_before_prompt": 3,
-    "days_between_prompts": 3
+    "message": "Get Updates and Worldcup in our channel",
+    "channel_url": "https://t.me/sportzxtv1",
+    "min_opens_before_prompt": 0,
+    "days_between_prompts": 0
   }
 }
