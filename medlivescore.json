@@ -49,7 +49,7 @@
   "telegram": {
     "enabled": true,
     "title": "Join our Community",
-    "message": "Get Updates and Worldcup in our channel",
+    "message": "Get Updates In Our Official Channel",
     "channel_url": "https://t.me/sportzxtv1",
     "min_opens_before_prompt": 0,
     "days_between_prompts": 0
