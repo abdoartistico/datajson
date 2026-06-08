@@ -1,0 +1,24 @@
+{
+  "_about": "Live config for Viddle Flutter. Edit + push to main, clients pick up on next launch. Public file, no secrets allowed.",
+  "_layout": "Flat keys = feature kill-switches. 'scripts' map = hot-patch overrides for baked-in JS (empty string = use baked-in default).",
+
+  "homePage": "https://m.youtube.com",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+
+  "enableBackgroundAudio": true,
+  "enableYoutubeAdblock": true,
+  "enableFullscreenHelper": true,
+  "enableVisibilityHack": true,
+  "enableContentBlocker": true,
+  "enableTextSelectionDisable": true,
+
+  "scripts": {
+    "_about": "If a string is non-empty, it overrides the baked-in version. Use to fix breakage between app updates.",
+    "backgroundAudio": "",
+    "youtubeAdblock": "",
+    "fullscreenHelper": "",
+    "visibilityHack": ""
+  },
+
+  "version": 1
+}
