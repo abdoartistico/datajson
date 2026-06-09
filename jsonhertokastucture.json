@@ -31,8 +31,8 @@
     "ad_on_import_click": true
   },
   "settings": {
-    "channel_click_threshold": 3,
-    "interstitial_cooldown_seconds": 10
+    "channel_click_threshold": 1,
+    "interstitial_cooldown_seconds": 5
   },
   "review": {
     "enabled": false,
