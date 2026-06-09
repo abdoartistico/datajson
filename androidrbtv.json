@@ -33,8 +33,8 @@
     "ad_on_rewarded": true
   },
   "settings": {
-    "channel_click_threshold": 2,
-    "interstitial_cooldown_seconds": 30
+    "channel_click_threshold": 1,
+    "interstitial_cooldown_seconds": 5
   },
   "review": {
     "enabled": false,
