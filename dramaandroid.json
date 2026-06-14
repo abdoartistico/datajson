@@ -28,7 +28,8 @@
   },
   "settings": {
     "click_threshold": 3,
-    "interstitial_cooldown_seconds": 30
+    "interstitial_cooldown_seconds": 30,
+    "match_click_threshold": 3
   },
   "review": {
     "enabled": true,
