@@ -18,6 +18,7 @@
     "ad_on_import_click": true,
     "ad_on_onboarding_native": true,
     "ad_on_onboarding_interstitial": true,
+    "ad_on_onboarding_interstitial_p3": true,
     "ad_on_player_banner": true,
     "ad_on_player_native": true,
     "ad_on_player_interstitial": true
