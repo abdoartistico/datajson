@@ -21,7 +21,9 @@
     "ad_on_onboarding_interstitial_p3": false,
     "ad_on_player_banner": false,
     "ad_on_player_native": false,
-    "ad_on_player_interstitial": false
+    "ad_on_player_interstitial": false,
+    "ad_on_series_native": false,
+    "ad_on_epg_native": false
   },
   "settings": {
     "channel_click_threshold": 2,
