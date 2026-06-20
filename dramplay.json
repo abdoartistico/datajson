@@ -65,5 +65,12 @@
   },
   "paywall": {
     "show_on_app_open": false
+  },
+  "branding": {
+    "enabled": true,
+    "hide_team_logos": true,
+    "hide_league_logos": true,
+    "hide_player_photos": true,
+    "hide_flags": false
   }
 }
