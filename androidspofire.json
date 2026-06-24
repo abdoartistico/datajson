@@ -1,5 +1,5 @@
 {
-  "magma_enabled": false,
+  "magma_enabled": true,
   "magma_base_url": "http://tv.m3uts.xyz",
   "ad_network": "admob",
   "ad_ids": {
