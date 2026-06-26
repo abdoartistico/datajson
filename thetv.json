@@ -24,7 +24,7 @@
     "ad_on_player_interstitial": true,
     "ad_on_series_native": true,
     "ad_on_epg_native": true
-  }
+  },
   "settings": {
     "channel_click_threshold": 2,
     "interstitial_cooldown_seconds": 10
