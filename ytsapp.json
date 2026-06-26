@@ -1,0 +1,20 @@
+{
+  "_about": "Live routing config for the YTS dual-mode app. Edit + push to main; clients read it on next launch (SplashActivity).",
+  "_modes": "mode = 'ytdl' -> opens the YTDLnis video downloader. mode = 'downloader' -> opens the generic file Download Manager.",
+  "mode": "downloader",
+  "maintenance": {
+    "enabled": false,
+    "force": false,
+    "title": "Under maintenance",
+    "message": "We're updating our servers. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "force": false,
+    "title": "Update available",
+    "message": "A new version is available. Please update to continue.",
+    "url": ""
+  },
+  "version": 1
+}
