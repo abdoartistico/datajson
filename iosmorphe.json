@@ -1,8 +1,6 @@
 {
   "_about": "iOS Morphe ad + feature config. AdMob-only. Currently TEST ad unit IDs (Google's) so ads are safe to test — swap to your real IDs at go-live. Set ad_network to 'none' to turn ALL ads off. Clients fetch this fresh on every launch.",
-
   "ad_network": "admob",
-
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/5575463023",
     "admob_native": "ca-app-pub-3940256099942544/3986624511",
@@ -10,23 +8,41 @@
     "admob_banner": "ca-app-pub-3940256099942544/2934735716",
     "admob_rewarded": "ca-app-pub-3940256099942544/1712485313"
   },
-
   "features": {
     "ad_on_app_open": true,
     "ad_on_channel_click": true,
     "ad_on_vod_tab": false,
-    "ad_on_home_native": false,
-    "ad_on_home_banner": true,
+    "ad_on_home_native": true,
+    "ad_on_home_banner": false,
     "ad_on_rewarded": false
   },
-
   "settings": {
     "channel_click_threshold": 1,
     "interstitial_cooldown_seconds": 0
   },
-
-  "review":      { "enabled": false, "min_opens_before_prompt": 3, "days_between_prompts": 15 },
-  "maintenance": { "enabled": false, "title": "Under maintenance", "message": "We'll be back shortly.", "show_retry": true },
-  "update":      { "enabled": false, "title": "Update required", "message": "Please update to the latest version.", "ios_app_url": "" },
-  "telegram":    { "enabled": false, "title": "Join our community", "message": "", "channel_url": "", "min_opens_before_prompt": 2, "days_between_prompts": 7 }
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 15
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Under maintenance",
+    "message": "We'll be back shortly.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "Update required",
+    "message": "Please update to the latest version.",
+    "ios_app_url": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our community",
+    "message": "",
+    "channel_url": "",
+    "min_opens_before_prompt": 2,
+    "days_between_prompts": 7
+  }
 }
