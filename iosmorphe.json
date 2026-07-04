@@ -18,7 +18,8 @@
   },
   "settings": {
     "channel_click_threshold": 1,
-    "interstitial_cooldown_seconds": 0
+    "interstitial_cooldown_seconds": 0,
+    "app_open_frequency": 4
   },
   "review": {
     "enabled": false,
