@@ -1,13 +1,13 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "platform": "admob",
-    "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
+    "ios_banner_id": "ca-app-pub-6659881710846881/4383662784",
     "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
-    "ios_interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+    "ios_interstitial_id": "ca-app-pub-6659881710846881/1997172595",
     "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-    "ios_app_open_id": "ca-app-pub-3940256099942544/5575463023",
-    "ios_native_id": "ca-app-pub-3940256099942544/3986624511",
+    "ios_app_open_id": "ca-app-pub-6659881710846881/9226971525",
+    "ios_native_id": "ca-app-pub-6659881710846881/4653337089",
     "show_banner_home": true,
     "show_banner_league_details": true,
     "show_banner_match_details": true,
