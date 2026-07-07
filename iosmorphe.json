@@ -45,5 +45,12 @@
     "channel_url": "",
     "min_opens_before_prompt": 2,
     "days_between_prompts": 7
+  },
+  "revenuecat": {
+    "_note": "Fill api_key with your RevenueCat PUBLIC SDK key (starts appl_). entitlement must match your RevenueCat entitlement id. paywall_launch_frequency: show paywall every Nth launch to non-subscribers (0 = never auto).",
+    "api_key": "",
+    "entitlement": "premium",
+    "paywall_enabled": true,
+    "paywall_launch_frequency": 3
   }
 }
