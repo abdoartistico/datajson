@@ -1,6 +1,6 @@
 {
-  "_about": "iOS Morphe ad + feature config. AdMob-only. Currently TEST ad unit IDs (Google's) so ads are safe to test — swap to your real IDs at go-live. Set ad_network to 'none' to turn ALL ads off. Clients fetch this fresh on every launch.",
-  "ad_network": "admob",
+  "_about": "iOS Morphe ad + feature config. AdMob-only. Currently TEST ad unit IDs (Google's) so ads are safe to test \u2014 swap to your real IDs at go-live. Set ad_network to 'none' to turn ALL ads off. Clients fetch this fresh on every launch.",
+  "ad_network": "none",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/5575463023",
     "admob_native": "ca-app-pub-3940256099942544/3986624511",
