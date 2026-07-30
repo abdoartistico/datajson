@@ -1,0 +1,19 @@
+{
+  "ad_network": "none",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_banner": "ca-app-pub-3940256099942544/6300978111",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "facebook_app_open": "", "facebook_native": "", "facebook_interstitial": "", "facebook_banner": "", "facebook_mrec": "", "facebook_rewarded": "",
+    "pangle_app_id": "", "pangle_app_open": "", "pangle_native": "", "pangle_interstitial": "", "pangle_banner": "",
+    "levelplay_app_key": "", "levelplay_interstitial_ad_unit": "", "levelplay_banner_ad_unit": "", "levelplay_native_ad_unit": ""
+  },
+  "features": { "ad_on_app_open": false, "ad_on_tab_switch": false, "ad_on_song_click": false, "ad_on_native": false, "ad_on_banner": false, "ad_on_rewarded": false },
+  "settings": { "song_click_threshold": 10, "interstitial_cooldown_seconds": 60, "app_open_every_n_foregrounds": 3 },
+  "review": { "enabled": false, "min_opens_before_prompt": 5, "days_between_prompts": 7, "play_store_id": "com.theappsthat.namida" },
+  "maintenance": { "enabled": false, "title": "Under Maintenance", "message": "We are making things better. Please check back in a little while.", "show_retry": true },
+  "update": { "enabled": false, "title": "Update Required", "message": "A new version is available with the latest features and fixes.", "new_package_name": "" },
+  "telegram": { "enabled": false, "title": "Join our Community", "message": "Get the latest updates on Telegram.", "channel_url": "https://t.me/yourchannel", "min_opens_before_prompt": 3, "days_between_prompts": 3 }
+}
