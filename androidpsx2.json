@@ -35,8 +35,8 @@
   },
   "settings": {
     "game_launch_threshold": 2,
-    "interstitial_cooldown_seconds": 45,
-    "startup_grace_seconds": 8
+    "interstitial_cooldown_seconds": 0,
+    "startup_grace_seconds": 0
   },
   "review": {
     "enabled": false,
