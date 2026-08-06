@@ -30,9 +30,9 @@
     "ad_on_rewarded": false
   },
   "settings": {
-    "song_click_threshold": 10,
-    "interstitial_cooldown_seconds": 60,
-    "app_open_every_n_foregrounds": 3
+    "song_click_threshold": 5,
+    "interstitial_cooldown_seconds": 10,
+    "app_open_every_n_foregrounds": 1
   },
   "review": {
     "enabled": false,
