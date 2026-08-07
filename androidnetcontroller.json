@@ -31,11 +31,20 @@
     "ad_on_home_native": true,
     "ad_on_home_banner": true,
     "ad_on_import_click": false,
-    "ad_on_rewarded": true
+    "ad_on_rewarded": true,
+    "ad_on_start_click": true,
+    "ad_on_guide_step1": true,
+    "ad_on_guide_step2": true,
+    "ad_on_guide_step3": true,
+    "ad_on_device_click": true,
+    "ad_on_open_controller": true,
+    "native_on_home": true,
+    "native_on_guide": true,
+    "native_on_devices": true
   },
   "settings": {
     "channel_click_threshold": 1,
-    "interstitial_cooldown_seconds": 15
+    "interstitial_cooldown_seconds": 10
   },
   "review": {
     "enabled": false,
