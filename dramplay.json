@@ -74,7 +74,7 @@
     "days_between_prompts": 3
   },
   "paywall": {
-    "show_on_app_open": false
+    "show_on_app_open": true
   },
   "branding": {
     "enabled": true,
