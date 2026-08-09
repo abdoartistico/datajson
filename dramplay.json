@@ -19,6 +19,7 @@
     "show_interstitial_on_match_open": true,
     "show_interstitial_on_stream_play": true,
     "show_interstitial_on_match_tab": true,
+    "show_interstitial_on_menu_tab": true,
     "show_interstitial_on_lineup": true,
     "show_interstitial_on_league_open": false,
     "show_interstitial_on_team_open": false,
