@@ -30,6 +30,8 @@
     "show_app_open_on_resume": true,
     "show_native_live_tv": true,
     "show_native_home": true,
+    "show_native_players": true,
+    "show_native_leagues": true,
     "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
     "unity_banner_id": "YOUR_LEVELPLAY_BANNER_AD_UNIT_ID",
     "unity_interstitial_id": "YOUR_LEVELPLAY_INTERSTITIAL_AD_UNIT_ID",
