@@ -25,7 +25,7 @@
         "show_interstitial_on_team_open": true,
         "show_interstitial_on_player_open": true,
         "interstitial_frequency": 2,
-        "interstitial_cooldown_seconds": 30,
+        "interstitial_cooldown_seconds": 5,
         "app_open_load_timeout_ms": 3000,
         "show_app_open": true,
         "show_app_open_on_resume": true,
