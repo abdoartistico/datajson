@@ -1,89 +1,89 @@
 {
-  "ads": {
-    "enabled": false,
-    "platform": "admob",
-    "ios_banner_id": "ca-app-pub-6659881710846881/4383662784",
-    "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
-    "ios_interstitial_id": "ca-app-pub-6659881710846881/1997172595",
-    "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-    "ios_app_open_id": "ca-app-pub-6659881710846881/9226971525",
-    "ios_native_id": "ca-app-pub-6659881710846881/4653337089",
-    "ios_rewarded_id": "YOUR_ADMOB_REWARDED_UNIT_ID",
-    "show_rewarded_ad_free": true,
-    "rewarded_ad_free_minutes": 60,
-    "show_banner_home": true,
-    "show_banner_league_details": true,
-    "show_banner_match_details": true,
-    "show_banner_live_tv": true,
-    "show_banner_player": true,
-    "show_interstitial_on_match_open": true,
-    "show_interstitial_on_stream_play": true,
-    "show_interstitial_on_match_tab": true,
-    "show_interstitial_on_menu_tab": true,
-    "show_interstitial_on_lineup": true,
-    "show_interstitial_on_league_open": false,
-    "show_interstitial_on_team_open": false,
-    "show_interstitial_on_player_open": false,
-    "interstitial_frequency": 2,
-    "interstitial_cooldown_seconds": 30,
-    "app_open_load_timeout_ms": 3000,
-    "show_app_open": true,
-    "show_app_open_on_resume": true,
-    "show_native_live_tv": true,
-    "show_native_home": true,
-    "show_native_players": true,
-    "show_native_leagues": true,
-    "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
-    "unity_banner_id": "YOUR_LEVELPLAY_BANNER_AD_UNIT_ID",
-    "unity_interstitial_id": "YOUR_LEVELPLAY_INTERSTITIAL_AD_UNIT_ID",
-    "unity_native_id": "YOUR_LEVELPLAY_NATIVE_AD_UNIT_ID",
-    "pangle_app_id": "YOUR_PANGLE_APP_ID",
-    "pangle_banner_slot": "YOUR_PANGLE_BANNER_SLOT_ID",
-    "pangle_interstitial_slot": "YOUR_PANGLE_INTERSTITIAL_SLOT_ID",
-    "pangle_native_slot": "YOUR_PANGLE_NATIVE_SLOT_ID",
-    "pangle_splash_slot": "YOUR_PANGLE_SPLASH_SLOT_ID",
-    "fan_banner_placement": "YOUR_META_BANNER_PLACEMENT_ID",
-    "fan_interstitial_placement": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
-    "fan_native_placement": "YOUR_META_NATIVE_PLACEMENT_ID"
-  },
-  "revenuecat": {
-    "ios_api_key": "appl_jhCbRwxSNMfYxVUpqlJoAKYUvlm",
-    "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
-    "entitlement_id": "pro"
-  },
-  "live_tv": {
-    "enabled": true
-  },
-  "review": {
-    "enabled": false,
-    "min_opens_before_prompt": 1,
-    "days_between_prompts": 1,
-    "app_store_id": "6768345740"
-  },
-  "update": {
-    "enabled": false,
-    "title": "UPDATE NOW",
-    "message": "We are fixing a connection issue. An update is available now. Please update.",
-    "button_text": "Update Now",
-    "min_version": "1.3.0",
-    "app_store_url": "https://apps.apple.com/app/id6768345740"
-  },
-  "telegram": {
-    "enabled": false,
-    "title": "Join our Community",
-    "message": "Get updates and support on our Telegram channel!",
-    "channel_url": "https://t.me/yourchannel",
-    "min_opens_before_prompt": 3,
-    "days_between_prompts": 3
-  },
-  "paywall": {
-    "show_on_app_open": true
-  },
-  "branding": {
-    "enabled": true,
-    "hide_team_logos": true,
-    "hide_league_logos": true,
-    "hide_player_photos": true,
-    "hide_flags": false
-  }
+    "ads": {
+        "enabled": true,
+        "platform": "admob",
+        "ios_banner_id": "ca-app-pub-6659881710846881/4383662784",
+        "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "ios_interstitial_id": "ca-app-pub-6659881710846881/1997172595",
+        "android_interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "ios_app_open_id": "ca-app-pub-6659881710846881/9226971525",
+        "ios_native_id": "ca-app-pub-6659881710846881/4653337089",
+        "ios_rewarded_id": "YOUR_ADMOB_REWARDED_UNIT_ID",
+        "show_rewarded_ad_free": true,
+        "rewarded_ad_free_minutes": 60,
+        "show_banner_home": true,
+        "show_banner_league_details": true,
+        "show_banner_match_details": true,
+        "show_banner_live_tv": true,
+        "show_banner_player": true,
+        "show_interstitial_on_match_open": true,
+        "show_interstitial_on_stream_play": true,
+        "show_interstitial_on_match_tab": true,
+        "show_interstitial_on_menu_tab": true,
+        "show_interstitial_on_lineup": true,
+        "show_interstitial_on_league_open": true,
+        "show_interstitial_on_team_open": true,
+        "show_interstitial_on_player_open": true,
+        "interstitial_frequency": 2,
+        "interstitial_cooldown_seconds": 30,
+        "app_open_load_timeout_ms": 3000,
+        "show_app_open": true,
+        "show_app_open_on_resume": true,
+        "show_native_live_tv": true,
+        "show_native_home": true,
+        "show_native_players": true,
+        "show_native_leagues": true,
+        "unity_app_key_ios": "YOUR_LEVELPLAY_APP_KEY",
+        "unity_banner_id": "YOUR_LEVELPLAY_BANNER_AD_UNIT_ID",
+        "unity_interstitial_id": "YOUR_LEVELPLAY_INTERSTITIAL_AD_UNIT_ID",
+        "unity_native_id": "YOUR_LEVELPLAY_NATIVE_AD_UNIT_ID",
+        "pangle_app_id": "YOUR_PANGLE_APP_ID",
+        "pangle_banner_slot": "YOUR_PANGLE_BANNER_SLOT_ID",
+        "pangle_interstitial_slot": "YOUR_PANGLE_INTERSTITIAL_SLOT_ID",
+        "pangle_native_slot": "YOUR_PANGLE_NATIVE_SLOT_ID",
+        "pangle_splash_slot": "YOUR_PANGLE_SPLASH_SLOT_ID",
+        "fan_banner_placement": "YOUR_META_BANNER_PLACEMENT_ID",
+        "fan_interstitial_placement": "YOUR_META_INTERSTITIAL_PLACEMENT_ID",
+        "fan_native_placement": "YOUR_META_NATIVE_PLACEMENT_ID"
+    },
+    "revenuecat": {
+        "ios_api_key": "appl_jhCbRwxSNMfYxVUpqlJoAKYUvlm",
+        "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
+        "entitlement_id": "pro"
+    },
+    "live_tv": {
+        "enabled": true
+    },
+    "review": {
+        "enabled": false,
+        "min_opens_before_prompt": 1,
+        "days_between_prompts": 1,
+        "app_store_id": "6768345740"
+    },
+    "update": {
+        "enabled": false,
+        "title": "UPDATE NOW",
+        "message": "We are fixing a connection issue. An update is available now. Please update.",
+        "button_text": "Update Now",
+        "min_version": "1.3.0",
+        "app_store_url": "https://apps.apple.com/app/id6768345740"
+    },
+    "telegram": {
+        "enabled": false,
+        "title": "Join our Community",
+        "message": "Get updates and support on our Telegram channel!",
+        "channel_url": "https://t.me/yourchannel",
+        "min_opens_before_prompt": 3,
+        "days_between_prompts": 3
+    },
+    "paywall": {
+        "show_on_app_open": true
+    },
+    "branding": {
+        "enabled": true,
+        "hide_team_logos": true,
+        "hide_league_logos": true,
+        "hide_player_photos": true,
+        "hide_flags": false
+    }
 }
