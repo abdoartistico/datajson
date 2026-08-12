@@ -28,14 +28,14 @@
     "ad_on_setup_next": true,
     "ad_on_game_exit": true,
     "ad_on_achievements_open": true,
-    "ad_on_app_open": true,
+    "ad_on_app_open": false,
     "ad_on_onboarding_native": true,
     "ad_on_library_banner": true,
     "ad_on_rewarded": true
   },
   "settings": {
     "game_launch_threshold": 2,
-    "interstitial_cooldown_seconds": 30,
+    "interstitial_cooldown_seconds": 60,
     "startup_grace_seconds": 0
   },
   "review": {
