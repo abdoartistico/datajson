@@ -1,6 +1,6 @@
 {
     "ads": {
-        "enabled": false,
+        "enabled": true,
         "platform": "admob",
         "ios_banner_id": "ca-app-pub-6659881710846881/4383662784",
         "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
