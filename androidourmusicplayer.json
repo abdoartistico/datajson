@@ -19,7 +19,7 @@
     "ad_on_rewarded": false
   },
   "settings": { "song_click_threshold": 5, "interstitial_cooldown_seconds": 10 },
-  "review": { "enabled": false, "min_opens_before_prompt": 5, "days_between_prompts": 7, "play_store_id": "com.metrowave.musicplayer" },
+  "review": { "enabled": true, "min_opens_before_prompt": 0, "days_between_prompts": 7, "play_store_id": "com.metrowave.musicplayer" },
   "maintenance": { "enabled": false, "title": "Under Maintenance", "message": "We are making things better. Please check back in a little while.", "show_retry": true },
   "update": { "enabled": false, "title": "Update Required", "message": "A new version is available with the latest features and fixes.", "new_package_name": "" },
   "telegram": { "enabled": false, "title": "Join our Community", "message": "Get the latest updates on Telegram.", "channel_url": "https://t.me/yourchannel", "min_opens_before_prompt": 3, "days_between_prompts": 3 }
