@@ -27,11 +27,11 @@
     "app_open": true,
     "game_launch_interstitial": true,
     "game_launch_rewarded": true,
-    "bottom_menu_tab": false,
+    "bottom_menu_tab": true,
     "games_native": true,
     "games_banner": true,
-    "onboarding_interstitial": false,
-    "onboarding_native": false
+    "onboarding_interstitial": true,
+    "onboarding_native": true
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
