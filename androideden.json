@@ -26,7 +26,7 @@
   "ad_placements": {
     "app_open": true,
     "game_launch_interstitial": true,
-    "game_launch_rewarded": false,
+    "game_launch_rewarded": true,
     "bottom_menu_tab": false,
     "games_native": true,
     "games_banner": false,
