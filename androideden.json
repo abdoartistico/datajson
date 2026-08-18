@@ -25,6 +25,7 @@
   },
   "ad_placements": {
     "app_open": true,
+    "app_open_cold_start": true,
     "game_launch_interstitial": true,
     "game_launch_rewarded": true,
     "bottom_menu_tab": false,
