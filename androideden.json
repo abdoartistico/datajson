@@ -32,11 +32,13 @@
     "games_native": true,
     "games_banner": false,
     "onboarding_interstitial": true,
-    "onboarding_native": true
+    "onboarding_native": true,
+    "settings_interstitial": true
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
-    "interstitial_every_n": 0
+    "interstitial_every_n": 0,
+    "onboarding_interstitial_every_n": 2
   },
   "review": {
     "enabled": false,
