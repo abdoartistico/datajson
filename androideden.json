@@ -31,7 +31,7 @@
     "games_native": true,
     "games_banner": false,
     "onboarding_interstitial": true,
-    "onboarding_native": false
+    "onboarding_native": true
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
