@@ -1,0 +1,66 @@
+{
+  "magma_enabled": false,
+  "magma_base_url": "",
+  "ad_network": "admob",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_banner": "ca-app-pub-3940256099942544/6300978111",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "facebook_app_open": "",
+    "facebook_native": "",
+    "facebook_interstitial": "",
+    "facebook_banner": "",
+    "facebook_rewarded": "",
+    "pangle_app_id": "",
+    "pangle_app_open": "",
+    "pangle_native": "",
+    "pangle_interstitial": "",
+    "pangle_banner": "",
+    "levelplay_app_key": "",
+    "levelplay_interstitial_ad_unit": "",
+    "levelplay_banner_ad_unit": "",
+    "levelplay_native_ad_unit": ""
+  },
+  "ad_placements": {
+    "app_open": true,
+    "game_launch_interstitial": true,
+    "game_launch_rewarded": false,
+    "bottom_menu_tab": false,
+    "games_native": true,
+    "games_banner": false,
+    "onboarding_interstitial": true,
+    "onboarding_native": false
+  },
+  "settings": {
+    "interstitial_cooldown_seconds": 0,
+    "interstitial_every_n": 0
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
+    "play_store_id": "dev.eden.eden_emulator.play"
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We are performing maintenance. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please update to continue.",
+    "new_package_name": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel.",
+    "channel_url": "",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 7
+  }
+}
