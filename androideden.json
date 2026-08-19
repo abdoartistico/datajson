@@ -33,7 +33,8 @@
     "games_banner": false,
     "onboarding_interstitial": true,
     "onboarding_native": true,
-    "settings_interstitial": true
+    "settings_interstitial": true,
+    "folder_interstitial": true
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
