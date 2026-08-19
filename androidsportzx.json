@@ -23,14 +23,14 @@
     "levelplay_native_ad_unit": "x2azanj84prh4c0g"
   },
   "features": {
-    "ad_on_add_playlist": true,
-    "ad_on_vod_tab": true,
-    "ad_on_channel_click": true,
-    "ad_on_app_open": true,
+    "ad_on_add_playlist": false,
+    "ad_on_vod_tab": false,
+    "ad_on_channel_click": false,
+    "ad_on_app_open": false,
     "ad_on_home_native": true,
     "ad_on_home_banner": false,
-    "ad_on_import_click": true,
-    "ad_on_rewarded": true
+    "ad_on_import_click": false,
+    "ad_on_rewarded": false
   },
   "settings": {
     "channel_click_threshold":1,
