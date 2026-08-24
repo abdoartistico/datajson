@@ -85,5 +85,7 @@
         "hide_league_logos": true,
         "hide_player_photos": true,
         "hide_flags": false
-    }
+    },
+    "api_base_url": "https://holoduke.nl/footapi",
+    "api_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
 }
