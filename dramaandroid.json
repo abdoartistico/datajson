@@ -1,4 +1,6 @@
 {
+  "api_base_url": "https://holoduke.nl/footapi",
+  "api_user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36",
   "ad_network": "admob",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
