@@ -1,7 +1,7 @@
 {
   "magma_enabled": false,
   "magma_base_url": "",
-  "ad_network": "admob",
+  "ad_network": "none",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
     "admob_native": "ca-app-pub-3940256099942544/2247696110",
@@ -31,21 +31,21 @@
     "bottom_menu_tab": false,
     "games_native": true,
     "games_banner": false,
-    "onboarding_interstitial": true,
-    "onboarding_native": true,
-    "settings_interstitial": true,
-    "folder_interstitial": true
+    "onboarding_interstitial": false,
+    "onboarding_native": false,
+    "settings_interstitial": false,
+    "folder_interstitial": false
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
     "interstitial_every_n": 0,
-    "onboarding_interstitial_every_n": 2
+    "onboarding_interstitial_every_n": 1
   },
   "review": {
     "enabled": false,
     "min_opens_before_prompt": 5,
     "days_between_prompts": 7,
-    "play_store_id": "dev.eden.eden_emulator.play"
+    "play_store_id": "com.myeden.edenemulator"
   },
   "maintenance": {
     "enabled": false,
@@ -62,9 +62,9 @@
   "telegram": {
     "enabled": false,
     "title": "Join our Community",
-    "message": "Get updates and support on our Telegram channel.",
+    "message": "Get updates and support on our Telegram channel!",
     "channel_url": "",
     "min_opens_before_prompt": 3,
-    "days_between_prompts": 7
+    "days_between_prompts": 3
   }
 }
