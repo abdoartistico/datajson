@@ -31,7 +31,18 @@
     "ad_on_home_native": true,
     "ad_on_home_banner": false,
     "ad_on_import_click": false,
-    "ad_on_rewarded": true
+    "ad_on_rewarded": true,
+    "ad_start_rewarded": true,
+    "ad_return_interstitial": true,
+    "ad_open_howto": true,
+    "ad_open_settings": false,
+    "ad_native_menu": true,
+    "ad_native_onboarding": true,
+    "ad_native_howto": true,
+    "ad_native_settings": true,
+    "ad_onboarding_1": false,
+    "ad_onboarding_2": true,
+    "ad_onboarding_3": true
   },
   "settings": {
     "channel_click_threshold": 2,
