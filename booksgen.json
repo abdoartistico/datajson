@@ -44,7 +44,7 @@
     "initial_delay_sec": 8,
     "title": "Enjoying LibG?",
     "message": "How would you rate your experience?",
-    "app_store_id": "0000000000"
+    "app_store_id": ""
   },
   "telegram": {
     "enabled": false,
@@ -58,8 +58,8 @@
   },
   "support": {
     "email": "",
-    "privacy_url": "https://abdoartistico.github.io/datajson/privacy.html",
-    "terms_url": "https://abdoartistico.github.io/datajson/terms.html"
+    "privacy_url": "https://abdoartistico.github.io/datajson/libg/privacy.html",
+    "terms_url": "https://abdoartistico.github.io/datajson/libg/terms.html"
   },
   "sources": {
     "gutenberg": {
