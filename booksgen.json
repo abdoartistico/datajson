@@ -57,7 +57,7 @@
     "initial_delay_sec": 6
   },
   "support": {
-    "email": "",
+    "email": "mohamedkhayi12@outlook.com",
     "privacy_url": "https://abdoartistico.github.io/datajson/libg/privacy.html",
     "terms_url": "https://abdoartistico.github.io/datajson/libg/terms.html"
   },
@@ -66,17 +66,17 @@
       "enabled": true
     },
     "archiveOrg": {
-      "enabled": false,
+      "enabled": true,
       "publicDomainOnly": true
     },
     "libg": {
-      "enabled": false
+      "enabled": true
     },
     "anna": {
-      "enabled": false
+      "enabled": true
     },
     "room": {
-      "enabled": false
+      "enabled": true
     }
   }
 }
