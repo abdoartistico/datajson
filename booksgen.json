@@ -1,6 +1,6 @@
 {
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "platform": "admob",
     "ios_banner_id": "ca-app-pub-3940256099942544/2934735716",
     "android_banner_id": "ca-app-pub-3940256099942544/6300978111",
@@ -19,7 +19,7 @@
     "show_app_open": true,
     "show_native": true,
     "show_interstitial": true,
-    "interstitial_frequency": 1,
+    "interstitial_frequency": 2,
     "app_open_cooldown_sec": 30,
     "app_open_min_background_sec": 5,
     "interstitial_cooldown_sec": 60
