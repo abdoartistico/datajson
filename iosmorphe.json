@@ -51,6 +51,6 @@
     "api_key": "appl_tNYrDAOMBhbysLGNThMupSGUWGj",
     "entitlement": "morph browser Pro",
     "paywall_enabled": true,
-    "paywall_launch_frequency": 3
+    "paywall_launch_frequency": 1
   }
 }
