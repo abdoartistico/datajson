@@ -24,17 +24,17 @@
     "levelplay_native_ad_unit": ""
   },
   "ad_placements": {
-    "app_open": true,
-    "app_open_cold_start": true,
-    "game_launch_interstitial": true,
+    "app_open": false,
+    "app_open_cold_start": false,
+    "game_launch_interstitial": false,
     "game_launch_rewarded": true,
     "bottom_menu_tab": false,
-    "games_native": true,
+    "games_native": false,
     "games_banner": false,
-    "onboarding_interstitial": true,
-    "onboarding_native": true,
-    "settings_interstitial": true,
-    "folder_interstitial": true
+    "onboarding_interstitial": false,
+    "onboarding_native": false,
+    "settings_interstitial": false,
+    "folder_interstitial": false
   },
   "settings": {
     "interstitial_cooldown_seconds": 0,
