@@ -24,12 +24,12 @@
     "levelplay_native_ad_unit": ""
   },
   "ad_placements": {
-    "app_open": false,
-    "app_open_cold_start": false,
-    "game_launch_interstitial": false,
+    "app_open": true,
+    "app_open_cold_start": true,
+    "game_launch_interstitial": true,
     "game_launch_rewarded": true,
     "bottom_menu_tab": false,
-    "games_native": false,
+    "games_native": true,
     "games_banner": false,
     "onboarding_interstitial": false,
     "onboarding_native": false,
