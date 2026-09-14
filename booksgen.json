@@ -25,8 +25,8 @@
     "interstitial_cooldown_sec": 60
   },
   "revenuecat": {
-    "ios_api_key": "test_gMRfxJAnyPJINhHhkCwmCRxLmVJ",
-    "android_api_key": "test_gMRfxJAnyPJINhHhkCwmCRxLmVJ",
+    "ios_api_key": "appl_UwgItZeUrSKyvmzRnBKDMVBEfXP",
+    "android_api_key": "",
     "entitlement_id": "libg_pro"
   },
   "update": {
