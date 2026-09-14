@@ -38,7 +38,7 @@
     "min_version": "0.1.0"
   },
   "review": {
-    "enabled": true,
+    "enabled": false,
     "min_opens_before_prompt": 3,
     "days_between_prompts": 7,
     "min_stars_to_rate": 4,
