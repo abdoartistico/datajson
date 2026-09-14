@@ -23,12 +23,12 @@
     "facebook_mrec": ""
   },
   "features": {
-    "ad_on_app_open": false,
+    "ad_on_app_open": true,
     "ad_on_tab_switch": true,
     "ad_on_song_click": true,
     "ad_on_native": true,
     "ad_on_banner": true,
-    "ad_on_rewarded": false
+    "ad_on_rewarded": true
   },
   "settings": {
     "song_click_threshold": 5,
