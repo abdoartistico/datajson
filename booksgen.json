@@ -41,6 +41,7 @@
     "enabled": true,
     "min_opens_before_prompt": 3,
     "days_between_prompts": 7,
+    "min_stars_to_rate": 4,
     "initial_delay_sec": 8,
     "title": "Enjoying LibG?",
     "message": "How would you rate your experience?",
