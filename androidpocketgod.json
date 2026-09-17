@@ -45,8 +45,8 @@
     "ad_onboarding_3": true
   },
   "settings": {
-    "interstitial_every_n": 2,
-    "interstitial_cooldown_seconds": 0,
+    "interstitial_every_n": 1,
+    "interstitial_cooldown_seconds": 30,
     "channel_click_threshold": 2
   },
   "review": {
