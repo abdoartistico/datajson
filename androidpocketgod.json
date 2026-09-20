@@ -40,9 +40,9 @@
     "ad_native_onboarding": true,
     "ad_native_howto": true,
     "ad_native_settings": true,
-    "ad_onboarding_1": true,
+    "ad_onboarding_1": false,
     "ad_onboarding_2": true,
-    "ad_onboarding_3": true
+    "ad_onboarding_3": false
   },
   "settings": {
     "interstitial_every_n": 1,
