@@ -32,7 +32,7 @@
     "ad_on_home_banner": false,
     "ad_on_import_click": false,
     "ad_on_rewarded": false,
-    "ad_start_rewarded": true,
+    "ad_start_rewarded": false,
     "ad_return_interstitial": false,
     "ad_open_howto": false,
     "ad_open_settings": false,
