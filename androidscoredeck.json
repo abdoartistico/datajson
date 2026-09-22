@@ -30,6 +30,7 @@
     "native_on_library": true,
     "native_on_settings": false,
     "ad_on_task_done": true,
+    "ad_on_score_open": true,
     "ad_on_reader_banner": false,
     "ad_on_rewarded": true,
     "rewarded_gates_reflow": false,
@@ -39,6 +40,7 @@
   "settings": {
     "interstitial_cooldown_seconds": 45,
     "native_library_row": 6,
+    "score_open_threshold": 3,
     "app_open_min_background_seconds": 30
   },
   "review": {
