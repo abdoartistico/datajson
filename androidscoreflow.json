@@ -22,25 +22,25 @@
   "levelplay_native_ad_unit": ""
  },
  "features": {
-  "ad_on_app_open": true,
+  "ad_on_app_open": false,
   "ad_on_guide_step1": false,
   "ad_on_guide_step2": false,
   "ad_on_guide_step3": false,
   "native_on_guide": false,
-  "native_on_library": true,
-  "native_on_settings": true,
+  "native_on_library": false,
+  "native_on_settings": false,
   "ad_on_task_done": false,
-  "ad_on_score_open": true,
-  "ad_on_reader_banner": true,
+  "ad_on_score_open": false,
+  "ad_on_reader_banner": false,
   "ad_on_rewarded": false,
   "rewarded_gates_reflow": false,
   "rewarded_gates_cue": false,
   "rewarded_gates_backup": false
  },
  "settings": {
-  "interstitial_cooldown_seconds": 5,
+  "interstitial_cooldown_seconds": 10,
   "native_library_row": 6,
-  "score_open_threshold": 1,
+  "score_open_threshold": 3,
   "app_open_min_background_seconds": 30
  },
  "review": {
