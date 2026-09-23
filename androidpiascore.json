@@ -47,7 +47,7 @@
   "enabled": false,
   "min_opens_before_prompt": 5,
   "days_between_prompts": 7,
-  "play_store_id": "com.scoreflow.reader"
+  "play_store_id": "com.piascore.thepia"
  },
  "maintenance": {
   "enabled": false,
