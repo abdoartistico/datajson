@@ -98,7 +98,15 @@
         // SHOP (top-left SHOP box): "Watch Ad: +$5". amount = dollars given.
         "shop_money":     { "enabled": true, "amount": 5, "max_per_run": 0, "max_per_shop": 1 },
         // SHOP (top-left SHOP box): "Watch Ad: Free Reroll". amount unused.
-        "free_reroll":    { "enabled": true, "amount": 1, "max_per_run": 0, "max_per_shop": 1 }
+        "free_reroll":    { "enabled": true, "amount": 1, "max_per_run": 0, "max_per_shop": 1 },
+
+        // IN-GAME BONUS button (above the deck, during rounds and blind select): "📺 +$10".
+        // Each video in a run pays LESS than the one before:
+        //   amounts          : $ for the 1st, 2nd, 3rd... video of a run. When the list ends,
+        //                      the button disappears until the next run. e.g. [10, 6, 4, 3, 2, 1]
+        //   cooldown_seconds : wait time after a video before the button can be used again
+        //                      (the button shows a countdown meanwhile).
+        "bonus_cash":     { "enabled": true, "amounts": [10, 6, 4, 3, 2, 1], "cooldown_seconds": 120, "amount": 0, "max_per_run": 0, "max_per_shop": 0 }
       }
     }
   },
