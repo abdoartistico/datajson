@@ -40,7 +40,7 @@
   // Shared SDK switches. Only these two matter for the game:
   "features": {
     "ad_on_app_open": true,       // App Open ad at launch and when coming back to the app
-    "ad_on_home_banner": true,    // banner at the bottom of the MAIN MENU only (never during play)
+    "ad_on_home_banner": false,   // banner removed: it covered menu buttons (the game no longer shows banners)
     // unused by the game (IPTV screens) — keep false:
     "ad_on_channel_click": false,
     "ad_on_rewarded": false,
