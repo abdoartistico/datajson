@@ -1,10 +1,23 @@
 {
+  // =====================================================================
+  //  WILD HAND — remote config. The app downloads this file on every launch.
+  //  Comments (// ...) are allowed: the app's JSON reader (Gson) skips them.
+  //  Changes take effect the next time the app is opened. No update needed.
+  // =====================================================================
+
+  // Not used by this game (IPTV feature of the shared SDK). Leave false.
   "magma_enabled": false,
   "magma_base_url": "",
+
+  // Which ad network serves ALL ads: "admob" | "meta" | "pangle" | "levelplay" | "none"
+  // "none" = the whole app shows zero ads.
   "ad_network": "admob",
+
+  // Ad unit ids for each network. These are Google's TEST ids (they show "Test Ad").
+  // Replace the admob_* values with your real ids from the AdMob console to earn money.
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
-    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",          // not used by the game
     "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
     "admob_banner": "ca-app-pub-3940256099942544/6300978111",
     "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
@@ -23,26 +36,82 @@
     "levelplay_banner_ad_unit": "",
     "levelplay_native_ad_unit": ""
   },
+
+  // Shared SDK switches. Only these two matter for the game:
   "features": {
+    "ad_on_app_open": true,       // App Open ad at launch and when coming back to the app
+    "ad_on_home_banner": true,    // banner at the bottom of the MAIN MENU only (never during play)
+    // unused by the game (IPTV screens) — keep false:
+    "ad_on_channel_click": false,
+    "ad_on_rewarded": false,
     "ad_on_add_playlist": false,
     "ad_on_vod_tab": false,
-    "ad_on_channel_click": true,
-    "ad_on_app_open": true,
     "ad_on_home_native": false,
-    "ad_on_home_banner": true,
-    "ad_on_import_click": false,
-    "ad_on_rewarded": true
+    "ad_on_import_click": false
   },
   "settings": {
-    "channel_click_threshold": 2,
-    "interstitial_cooldown_seconds": 30
+    "channel_click_threshold": 2,         // unused by the game
+    "interstitial_cooldown_seconds": 30   // unused by the game (see game_ads below)
   },
+
+  // =====================================================================
+  //  GAME ADS — every placement is independent. No rotation, no mixing:
+  //  interstitial placements only show interstitials, rewarded placements
+  //  only show a rewarded video when the player taps a "Watch Ad" button.
+  // =====================================================================
+  "game_ads": {
+
+    "interstitial": {
+      "enabled": true,               // master switch for ALL interstitials below
+      "cooldown_seconds": 45,        // minimum seconds between two full-screen ads (any placement)
+      "first_ad_after_seconds": 20,  // no interstitial during the first N seconds after the app opens
+
+      // For each placement:
+      //   enabled    : true/false
+      //   every      : show on every Nth time the action happens (1 = every time, 3 = every 3rd time)
+      //   skip_first : ignore the first N times after the app opens (0 = count from the first time)
+      "placements": {
+        "play_button":  { "enabled": true,  "every": 1, "skip_first": 0 },  // main menu PLAY / CONTINUE / challenge PLAY
+        "back_to_menu": { "enabled": true,  "every": 1, "skip_first": 0 },  // leaving a run or the Collection back to the main menu (incl. Android back)
+        "select_blind": { "enabled": true,  "every": 3, "skip_first": 1 },  // pressing "Select" to start a round
+        "cash_out":     { "enabled": false, "every": 2, "skip_first": 0 },  // pressing "Cash Out" after winning a round
+        "next_round":   { "enabled": true,  "every": 2, "skip_first": 0 },  // pressing "Next Round" to leave the shop
+        "game_over":    { "enabled": true,  "every": 1, "skip_first": 0 },  // shortly after the Game Over screen appears
+        "new_run":      { "enabled": true,  "every": 1, "skip_first": 0 }   // "New Run" from Game Over or the pause menu
+      }
+    },
+
+    "rewarded": {
+      "enabled": true,         // master switch: false hides every "Watch Ad" button
+      "max_wait_seconds": 8,   // if no video is loaded yet, wait up to N seconds (loading dialog) before giving up
+
+      // For each placement:
+      //   enabled      : show the "Watch Ad" button or not
+      //   amount       : size of the reward (see each line)
+      //   max_per_run  : how many times per run the button can be used (0 = unlimited)
+      //   max_per_shop : how many times per shop visit (0 = unlimited; shop placements only)
+      "placements": {
+        // GAME OVER screen: "Watch Ad: +1 Hand & Continue". amount = hands given back.
+        "revive":         { "enabled": true, "amount": 1, "max_per_run": 1, "max_per_shop": 0 },
+        // CASH OUT screen after each won round: "Watch Ad: x2". amount = multiplier (2 = double).
+        "double_cashout": { "enabled": true, "amount": 2, "max_per_run": 3, "max_per_shop": 0 },
+        // SHOP (top-left SHOP box): "Watch Ad: +$5". amount = dollars given.
+        "shop_money":     { "enabled": true, "amount": 5, "max_per_run": 0, "max_per_shop": 1 },
+        // SHOP (top-left SHOP box): "Watch Ad: Free Reroll". amount unused.
+        "free_reroll":    { "enabled": true, "amount": 1, "max_per_run": 0, "max_per_shop": 1 }
+      }
+    }
+  },
+
+  // In-app review prompt (5-star dialog → Play Store).
   "review": {
     "enabled": true,
-    "min_opens_before_prompt": 5,
-    "days_between_prompts": 7,
+    "min_opens_before_prompt": 5,   // ask only after the app was opened N times
+    "days_between_prompts": 7,      // then at most once every N days
     "play_store_id": "com.wildhand.game"
   },
+
+  // Emergency switches (take over the whole app when enabled):
   "maintenance": {
     "enabled": false,
     "title": "Scheduled Maintenance",
@@ -50,11 +119,13 @@
     "show_retry": true
   },
   "update": {
-    "enabled": false,
+    "enabled": false,                // force players to download a new app
     "title": "New Version Available",
     "message": "Please download our new app to continue.",
     "new_package_name": ""
   },
+
+  // Telegram community promo dialog.
   "telegram": {
     "enabled": false,
     "title": "Join our Community",
