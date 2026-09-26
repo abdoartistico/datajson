@@ -12,7 +12,7 @@
   "features": {
     "ad_on_app_open": true,
     "ad_on_home_native": true,
-    "ad_start_rewarded": false,
+    "ad_start_rewarded": true,
     "ad_return_interstitial": false,
     "ad_open_howto": false,
     "ad_open_settings": false,
