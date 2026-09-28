@@ -1,11 +1,11 @@
 {
-  "_about": "iOS Morphe ad + feature config. AdMob-only. Currently TEST ad unit IDs (Google's) so ads are safe to test \u2014 swap to your real IDs at go-live. Set ad_network to 'none' to turn ALL ads off. Clients fetch this fresh on every launch.",
-  "ad_network": "none",
+  "_about": "iOS Morph ad + feature config. AdMob-only. LIVE ad unit IDs.",
+  "ad_network": "admob",
   "ad_ids": {
-    "admob_app_open": "ca-app-pub-3940256099942544/5575463023",
-    "admob_native": "ca-app-pub-3940256099942544/3986624511",
-    "admob_interstitial": "ca-app-pub-3940256099942544/4411468910",
-    "admob_banner": "ca-app-pub-3940256099942544/2934735716",
+    "admob_app_open": "ca-app-pub-9226460292501375/5556898170",
+    "admob_native": "ca-app-pub-9226460292501375/1385718878",
+    "admob_interstitial": "ca-app-pub-9226460292501375/4662618906",
+    "admob_banner": "ca-app-pub-9226460292501375/1845628735",
     "admob_rewarded": "ca-app-pub-3940256099942544/1712485313"
   },
   "features": {
@@ -18,11 +18,11 @@
   },
   "settings": {
     "channel_click_threshold": 1,
-    "interstitial_cooldown_seconds": 0,
+    "interstitial_cooldown_seconds": 60,
     "app_open_frequency": 4
   },
   "review": {
-    "enabled": false,
+    "enabled": true,
     "min_opens_before_prompt": 3,
     "days_between_prompts": 15
   },
@@ -47,10 +47,9 @@
     "days_between_prompts": 7
   },
   "revenuecat": {
-    "_note": "Fill api_key with your RevenueCat PUBLIC SDK key (starts appl_). entitlement must match your RevenueCat entitlement id. paywall_launch_frequency: show paywall every Nth launch to non-subscribers (0 = never auto).",
     "api_key": "appl_tNYrDAOMBhbysLGNThMupSGUWGj",
     "entitlement": "morph browser Pro",
     "paywall_enabled": true,
-    "paywall_launch_frequency": 1
+    "paywall_launch_frequency": 3
   }
 }
