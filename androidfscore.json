@@ -1,11 +1,11 @@
 {
   "ad_network": "admob",
   "ad_ids": {
-    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
-    "admob_native": "ca-app-pub-3940256099942544/2247696110",
-    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
-    "admob_banner": "ca-app-pub-3940256099942544/9214589741",
-    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "admob_app_open": "ca-app-pub-2693299129302878/1605610107",
+    "admob_native": "ca-app-pub-2693299129302878/9807448033",
+    "admob_interstitial": "ca-app-pub-2693299129302878/3130359048",
+    "admob_banner": "ca-app-pub-2693299129302878/8845720157",
+    "admob_rewarded": "ca-app-pub-2693299129302878/9504195700",
     "facebook_app_open": "",
     "facebook_native": "",
     "facebook_interstitial": "",
@@ -22,26 +22,26 @@
     "levelplay_native_ad_unit": ""
   },
   "features": {
-    "ad_on_app_open": false,
+    "ad_on_app_open": true,
     "ad_on_guide_step1": false,
-    "ad_on_guide_step2": false,
+    "ad_on_guide_step2": true,
     "ad_on_guide_step3": false,
-    "native_on_guide": false,
-    "native_on_library": false,
-    "native_on_settings": false,
-    "ad_on_task_done": false,
-    "ad_on_score_open": false,
-    "ad_on_reader_banner": false,
-    "ad_on_rewarded": false,
+    "native_on_guide": true,
+    "native_on_library": true,
+    "native_on_settings": true,
+    "ad_on_task_done": true,
+    "ad_on_score_open": true,
+    "ad_on_reader_banner": true,
+    "ad_on_rewarded": true,
     "rewarded_gates_reflow": false,
-    "rewarded_gates_cue": false,
-    "rewarded_gates_backup": false
+    "rewarded_gates_cue": true,
+    "rewarded_gates_backup": true
   },
   "settings": {
-    "interstitial_cooldown_seconds": 10,
+    "interstitial_cooldown_seconds": 60,
     "native_library_row": 6,
-    "score_open_threshold": 3,
-    "app_open_min_background_seconds": 30
+    "score_open_threshold": 4,
+    "app_open_min_background_seconds": 60
   },
   "review": {
     "enabled": false,
