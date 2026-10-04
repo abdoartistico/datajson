@@ -1,0 +1,95 @@
+{
+  "_readme": {
+    "ad_network": "admob | meta | pangle | levelplay | both (AdMob, then Meta) | all (AdMob, Meta, Pangle) | none (no ads at all)",
+    "switches": "true = show this ad, false = hide it. Every ad below has its own switch.",
+    "game.launch_ad": "interstitial | rewarded | both (alternates: one ad per game start) | off",
+    "cooldowns": "Seconds, counted from when the previous ad closed. 0 = no limit."
+  },
+  "ad_network": "none",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "facebook_interstitial": "",
+    "facebook_rewarded": "",
+    "facebook_native": "",
+    "pangle_app_id": "",
+    "pangle_app_open": "",
+    "pangle_interstitial": "",
+    "pangle_native": "",
+    "levelplay_app_key": "",
+    "levelplay_interstitial_ad_unit": "",
+    "levelplay_native_ad_unit": ""
+  },
+  "app_open": {
+    "on_launch": true,
+    "on_return": true,
+    "cooldown_seconds": 0,
+    "launch_wait_seconds": 10
+  },
+  "onboarding": {
+    "welcome": {
+      "native": true,
+      "interstitial": false
+    },
+    "notifications": {
+      "native": false,
+      "interstitial": true
+    },
+    "folder": {
+      "native": true,
+      "interstitial": false
+    },
+    "done": {
+      "native": true,
+      "interstitial": false
+    }
+  },
+  "native_ads": {
+    "library": true,
+    "search": true,
+    "settings": true
+  },
+  "game": {
+    "launch_ad": "both",
+    "exit_interstitial": true
+  },
+  "interstitials": {
+    "open_settings": true,
+    "pick_folder": true,
+    "console_swipe": false,
+    "cooldown_seconds": 30,
+    "every_n": 0
+  },
+  "remove_ads_reward": {
+    "enabled": true,
+    "minutes": 30
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
+    "play_store_id": "com.myretrova.retrovaemulator"
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We are performing maintenance. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please update to continue.",
+    "new_package_name": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  }
+}
