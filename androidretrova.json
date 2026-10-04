@@ -1,9 +1,24 @@
 {
   "_readme": {
-    "ad_network": "admob | meta | pangle | levelplay | both (AdMob, then Meta) | all (AdMob, Meta, Pangle) | none (no ads at all)",
-    "switches": "true = show this ad, false = hide it. Every ad below has its own switch.",
-    "game.launch_ad": "interstitial | rewarded | both (alternates: one ad per game start) | off",
-    "cooldowns": "Seconds, counted from when the previous ad closed. 0 = no limit."
+    "switches": "true = show this ad / turn this on, false = hide it / turn it off. Every ad has its own switch.",
+    "ad_network": "Which ad network serves the ads: admob | meta | pangle | levelplay | both (AdMob first, Meta as backup) | all (AdMob, then Meta, then Pangle) | none (no ads anywhere).",
+    "ad_ids": "Ad unit ids for each network (text). Only the ones for the chosen ad_network are used. Leave \"\" for unused networks.",
+    "app_open.cooldown_seconds": "Number. Minimum seconds between two app-open ads. 0 = no limit.",
+    "app_open.launch_wait_seconds": "Number. On a fresh start, how many seconds the app-open ad may take to load. If it is slower, it is skipped instead of popping up later. Default 10.",
+    "game.launch_ad": "Ad when a game starts: interstitial | rewarded | both (alternates: interstitial, then rewarded, then interstitial...) | off.",
+    "interstitials.cooldown_seconds": "Number. Minimum seconds between two full-screen ads (interstitials, the game-start ad; an app-open ad also counts), counted from when the previous ad closed. 0 = no limit.",
+    "interstitials.every_n": "Number. Show an interstitial only every Nth time one could show (2 = every second time). 0 = every time.",
+    "remove_ads_reward.minutes": "Number. How many minutes without pop-up ads the user gets after watching the reward video.",
+    "review.min_opens_before_prompt": "Number. App opens before the rate-us prompt can appear.",
+    "review.days_between_prompts": "Number. Days to wait before showing the rate-us prompt again.",
+    "review.play_store_id": "Text. Package name the rate-us prompt opens on the Play Store. Empty = this app.",
+    "maintenance.title / message": "Text shown on the maintenance screen when maintenance.enabled is true (the app is blocked).",
+    "update.title / message": "Text shown on the update screen when update.enabled is true (the app is blocked).",
+    "update.new_package_name": "Text. Package name of the new app to send users to. Empty = this app's own Play Store page.",
+    "telegram.title / message": "Text of the Telegram invite popup.",
+    "telegram.channel_url": "Text. Link opened by the Join button, e.g. https://t.me/yourchannel.",
+    "telegram.min_opens_before_prompt": "Number. App opens before the Telegram popup can appear.",
+    "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again."
   },
   "ad_network": "none",
   "ad_ids": {
