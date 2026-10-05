@@ -1,0 +1,110 @@
+{
+  "_readme": {
+    "switches": "true = show this ad / turn this on, false = hide it / turn it off. Every ad has its own switch.",
+    "ad_network": "Which ad network serves the ads: admob | meta | pangle | levelplay | both (AdMob first, Meta as backup) | all (AdMob, then Meta, then Pangle) | none (no ads anywhere).",
+    "ad_ids": "Ad unit ids for each network (text). Only the ones for the chosen ad_network are used. Leave \"\" for unused networks.",
+    "app_open.cooldown_seconds": "Number. Minimum seconds between two app-open ads. 0 = no limit.",
+    "app_open.launch_wait_seconds": "Number. On a fresh start, how many seconds the app-open ad may take to load. If it is slower, it is skipped instead of popping up later. Default 10.",
+    "game.launch_ad": "Ad when a game starts: interstitial | rewarded | both (alternates: interstitial, then rewarded, then interstitial...) | off.",
+    "interstitials.cooldown_seconds": "Number. Minimum seconds between two full-screen ads (interstitials, the game-start ad; an app-open ad also counts), counted from when the previous ad closed. 0 = no limit.",
+    "interstitials.every_n": "Number. Show an interstitial only every Nth time one could show (2 = every second time). 0 = every time.",
+    "remove_ads_reward.minutes": "Number. How many minutes without pop-up ads the user gets after watching the reward video.",
+    "review.min_opens_before_prompt": "Number. App opens before the rate-us prompt can appear.",
+    "review.days_between_prompts": "Number. Days to wait before showing the rate-us prompt again.",
+    "review.play_store_id": "Text. Package name the rate-us prompt opens on the Play Store. Empty = this app.",
+    "maintenance.title / message": "Text shown on the maintenance screen when maintenance.enabled is true (the app is blocked).",
+    "update.title / message": "Text shown on the update screen when update.enabled is true (the app is blocked).",
+    "update.new_package_name": "Text. Package name of the new app to send users to. Empty = this app's own Play Store page.",
+    "telegram.title / message": "Text of the Telegram invite popup.",
+    "telegram.channel_url": "Text. Link opened by the Join button, e.g. https://t.me/yourchannel.",
+    "telegram.min_opens_before_prompt": "Number. App opens before the Telegram popup can appear.",
+    "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again."
+  },
+  "ad_network": "none",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "admob_native": "ca-app-pub-3940256099942544/2247696110",
+    "facebook_interstitial": "",
+    "facebook_rewarded": "",
+    "facebook_native": "",
+    "pangle_app_id": "",
+    "pangle_app_open": "",
+    "pangle_interstitial": "",
+    "pangle_native": "",
+    "levelplay_app_key": "",
+    "levelplay_interstitial_ad_unit": "",
+    "levelplay_native_ad_unit": ""
+  },
+  "app_open": {
+    "on_launch": true,
+    "on_return": true,
+    "cooldown_seconds": 0,
+    "launch_wait_seconds": 10
+  },
+  "onboarding": {
+    "welcome": {
+      "native": true,
+      "interstitial": false
+    },
+    "notifications": {
+      "native": false,
+      "interstitial": true
+    },
+    "folder": {
+      "native": true,
+      "interstitial": false
+    },
+    "done": {
+      "native": true,
+      "interstitial": false
+    }
+  },
+  "native_ads": {
+    "library": true,
+    "search": true,
+    "settings": true
+  },
+  "game": {
+    "launch_ad": "both",
+    "exit_interstitial": true
+  },
+  "interstitials": {
+    "open_settings": true,
+    "pick_folder": true,
+    "console_swipe": false,
+    "cooldown_seconds": 30,
+    "every_n": 0
+  },
+  "remove_ads_reward": {
+    "enabled": true,
+    "minutes": 30
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
+    "play_store_id": "com.manicemu.myemu"
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We are performing maintenance. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please update to continue.",
+    "new_package_name": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  }
+}
