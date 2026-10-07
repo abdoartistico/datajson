@@ -13,14 +13,13 @@
   // "none" = the whole app shows zero ads.
   "ad_network": "admob",
 
-  // Ad unit ids for each network. These are Google's TEST ids (they show "Test Ad").
-  // Replace the admob_* values with your real ids from the AdMob console to earn money.
+  // Ad unit ids for each network. admob_* = the REAL AdMob units of com.mygin.balatro.
   "ad_ids": {
-    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
-    "admob_native": "ca-app-pub-3940256099942544/2247696110",          // not used by the game
-    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
-    "admob_banner": "ca-app-pub-3940256099942544/6300978111",
-    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "admob_app_open": "ca-app-pub-2693299129302878/2491313768",
+    "admob_native": "ca-app-pub-2693299129302878/5674871143",          // not used by the game
+    "admob_interstitial": "ca-app-pub-2693299129302878/8955640603",
+    "admob_banner": "ca-app-pub-2693299129302878/7799480768",
+    "admob_rewarded": "ca-app-pub-2693299129302878/7642558935",
     "facebook_app_open": "",
     "facebook_native": "",
     "facebook_interstitial": "",
