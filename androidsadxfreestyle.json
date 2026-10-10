@@ -1,0 +1,75 @@
+{
+  "app_name": "Sadx FreeStyle",
+  "package_name": "com.sadx.freestyle",
+  "magma_enabled": false,
+  "magma_base_url": "",
+  "ad_network": "admob",
+  "ad_ids": {
+    "admob_app_open": "",
+    "admob_native": "",
+    "admob_interstitial": "",
+    "admob_banner": "",
+    "admob_rewarded": "",
+    "facebook_app_open": "",
+    "facebook_native": "",
+    "facebook_interstitial": "",
+    "facebook_banner": "",
+    "facebook_rewarded": "",
+    "pangle_app_id": "",
+    "pangle_app_open": "",
+    "pangle_native": "",
+    "pangle_interstitial": "",
+    "pangle_banner": "",
+    "levelplay_app_key": "",
+    "levelplay_interstitial_ad_unit": "",
+    "levelplay_banner_ad_unit": "",
+    "levelplay_native_ad_unit": ""
+  },
+  "features": {
+    "ad_on_app_open": false,
+    "ad_on_home_banner": true,
+    "ad_on_home_native": true,
+    "ad_on_sensitivity_banner": true,
+    "ad_on_crosshair_banner": true,
+    "ad_on_performance_banner": false,
+    "ad_on_tab_navigation": true,
+    "ad_on_game_launch": true,
+    "ad_on_overlay_start": false,
+    "ad_on_settings_native": false,
+    "ad_on_rewarded": false,
+    "native_on_home": true,
+    "native_on_sensitivity": false,
+    "native_on_settings": false
+  },
+  "settings": {
+    "interstitial_cooldown_seconds": 30,
+    "tab_click_threshold": 3,
+    "game_launch_threshold": 1
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7,
+    "play_store_id": "com.sadx.freestyle"
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We are updating our servers. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please download our new app to continue.",
+    "new_package_name": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "https://t.me/yourchannel",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  }
+}
