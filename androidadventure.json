@@ -12,7 +12,7 @@
     "interstitials.every_n": "Show an interstitial only every Nth time one could show. 0 = every time.",
     "remove_ads_reward.enabled": "true = show the floating Remove Ads button (rewarded video grants ad-free minutes)."
   },
-  "ad_network": "admob",
+  "ad_network": "none",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
     "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
