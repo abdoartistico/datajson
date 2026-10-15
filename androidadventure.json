@@ -1,0 +1,47 @@
+{
+  "_readme": {
+    "how_it_works": "The app downloads THIS file at startup. Edit it here on GitHub and the app picks it up - no rebuild, no update needed.",
+    "ad_network": "admob = show ads | none = turn ALL ads off everywhere.",
+    "ad_ids": "Your AdMob unit ids. Replace the test ids with your real ones to earn money.",
+    "app_open.on_launch": "true/false - full-screen ad when the app is opened cold.",
+    "app_open.on_return": "true/false - ad when returning from background.",
+    "game.*_interstitial": "\"interstitial\" = ON, \"off\" = OFF. Full-screen ad at that moment.",
+    "game.*_rewarded": "\"rewarded\" = ON, \"off\" = OFF. Rewarded video at that moment. Independent of the interstitial switch.",
+    "placements": "menu = main-menu buttons | enter_world = entering a world | death = player died/restart | exit_world = save & quit | boss = boss defeated.",
+    "interstitials.cooldown_seconds": "Minimum seconds between two INTERSTITIALS only. App-open and rewarded ads do NOT consume this cooldown.",
+    "interstitials.every_n": "Show an interstitial only every Nth time one could show. 0 = every time.",
+    "remove_ads_reward.enabled": "true = show the floating Remove Ads button (rewarded video grants ad-free minutes)."
+  },
+  "ad_network": "admob",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/9257395921",
+    "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "admob_rewarded": "ca-app-pub-3940256099942544/5224354917"
+  },
+  "app_open": {
+    "on_launch": true,
+    "on_return": false,
+    "cooldown_seconds": 60,
+    "launch_wait_seconds": 10
+  },
+  "game": {
+    "menu_interstitial": "interstitial",
+    "menu_rewarded": "off",
+    "enter_world_interstitial": "interstitial",
+    "enter_world_rewarded": "off",
+    "death_interstitial": "off",
+    "death_rewarded": "rewarded",
+    "exit_world_interstitial": "interstitial",
+    "exit_world_rewarded": "off",
+    "boss_interstitial": "off",
+    "boss_rewarded": "off"
+  },
+  "interstitials": {
+    "cooldown_seconds": 1,
+    "every_n": 0
+  },
+  "remove_ads_reward": {
+    "enabled": false,
+    "minutes": 15
+  }
+}
