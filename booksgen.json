@@ -78,6 +78,12 @@
     },
     "room": {
       "enabled": false
+    },
+    "libcats": {
+      "enabled": false
+    },
+    "ipfs": {
+      "enabled": false
     }
   }
 }
