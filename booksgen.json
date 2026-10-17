@@ -75,7 +75,7 @@
       "publicDomainOnly": true
     },
     "libg": {
-      "enabled": false
+      "enabled": true
     },
     "anna": {
       "enabled": false
