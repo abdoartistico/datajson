@@ -62,6 +62,10 @@
     "privacy_url": "https://harmonious-churros-65ff1f.netlify.app/privacy",
     "terms_url": "https://harmonious-churros-65ff1f.netlify.app/terms"
   },
+  "paywall": {
+    "show_on_open": true,
+    "free_opens": 0
+  },
   "sources": {
     "gutenberg": {
       "enabled": true
