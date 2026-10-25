@@ -52,7 +52,7 @@
     "new_package_name": "com.mydramaapp.dramazik"
   },
   "telegram": {
-    "enabled": true,
+    "enabled": false,
     "title": "Join our Community",
     "message": "Get updates and support on our Telegram channel!",
     "channel_url": "https://t.me/yourchannel",
