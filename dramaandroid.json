@@ -23,15 +23,15 @@
     "levelplay_native_ad_unit": ""
   },
   "features": {
-    "ad_on_app_open": false,
-    "ad_on_home_native": false,
-    "ad_on_home_banner": false,
-    "ad_on_click": false
+    "ad_on_app_open": true,
+    "ad_on_home_native": true,
+    "ad_on_home_banner": true,
+    "ad_on_click": true
   },
   "settings": {
-    "click_threshold": 3,
-    "interstitial_cooldown_seconds": 30,
-    "match_click_threshold": 3
+    "click_threshold": 1,
+    "interstitial_cooldown_seconds": 10,
+    "match_click_threshold": 1
   },
   "review": {
     "enabled": true,
