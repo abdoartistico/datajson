@@ -20,7 +20,7 @@
     "telegram.min_opens_before_prompt": "Number. App opens before the Telegram popup can appear.",
     "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again."
   },
-  "ad_network": "none",
+  "ad_network": "admob",
   "ad_ids": {
     "admob_app_open": "ca-app-pub-2693299129302878/3475021129",
     "admob_interstitial": "ca-app-pub-2693299129302878/3259398702",
