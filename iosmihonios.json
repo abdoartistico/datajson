@@ -25,7 +25,9 @@
     "reader.<spot>": "next_chapter_interstitial (going to another chapter), exit_interstitial (leaving the reader), chapter_end_native (native on the 'Chapter finished' screen).",
     "app_features.apk_import": "true = show the 'Install .apk' buttons (Library and Extensions), false = hide them.",
     "iap.enabled": "true = Pro features are locked behind the in-app purchase. false = everything is free (no paywall). People who already bought Pro always keep it and never see ads.",
-    "iap.products": "App Store product ids per plan: lifetime (non-consumable), yearly and monthly (auto-renewable subscriptions in one group). \"\" = plan not offered. The prices come from App Store Connect.",
+    "iap.revenuecat_api_key": "RevenueCat Apple public SDK key (appl_...). Empty = purchases off and Pro features stay locked.",
+    "iap.entitlement": "RevenueCat entitlement id that means Pro (default pro).",
+    "iap.plans": "Packages of the current RevenueCat offering to show, in order: lifetime, yearly (Annual package), monthly. Remove one to hide it. Prices come from App Store Connect.",
     "iap.highlight": "Plan pre-selected on the paywall with a 'Best value' tag: lifetime | yearly | monthly.",
     "iap.pro_features.<feature>": "true = this feature needs Pro, false = free for everyone. downloads (offline chapters), reader_paged (paged left-to-right / right-to-left reading), global_search (search all sources), local_import (.cbz/.zip/.epub import), library_tools (library sort options + bulk mark read/remove), backup (create / restore backups). Pro always removes all ads.",
     "iap.terms_url / privacy_url": "Links on the paywall (Apple requires both for subscriptions). Default terms = Apple's standard EULA."
@@ -165,11 +167,9 @@
   },
   "iap": {
     "enabled": true,
-    "products": {
-      "lifetime": "app.mihonios.mihoniosApp.pro.lifetime",
-      "yearly": "app.mihonios.mihoniosApp.pro.yearly",
-      "monthly": "app.mihonios.mihoniosApp.pro.monthly"
-    },
+    "revenuecat_api_key": "",
+    "entitlement": "pro",
+    "plans": ["lifetime", "yearly", "monthly"],
     "highlight": "yearly",
     "pro_features": {
       "downloads": true,
@@ -180,6 +180,6 @@
       "backup": true
     },
     "terms_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-    "privacy_url": "https://abdoartistico.github.io/datajson/mihou/privacy.html"
+    "privacy_url": "https://mihou.netlify.app/privacy"
   }
 }
