@@ -1,0 +1,185 @@
+{
+  "_readme": {
+    "switches": "true = show this ad / turn this on, false = hide it / turn it off. Every ad has its own switch.",
+    "ad_network": "Which ad network serves the ads: admob | none (no ads anywhere).",
+    "ad_ids": "AdMob ad unit ids (text). The iOS AdMob App ID itself is in the app (Info.plist GADApplicationIdentifier), not here.",
+    "app_open.on_launch / on_return": "App-open ad on a fresh start / when coming back to the app from the background.",
+    "app_open.cooldown_seconds": "Number. Minimum seconds between two app-open ads. 0 = no limit.",
+    "app_open.launch_wait_seconds": "Number. On a fresh start, how many seconds the app-open ad may take to load. If it is slower, it is skipped instead of popping up later. Default 10.",
+    "native_ads.<page>": "Native ad on that page: library, updates, history, browse (sources list), extensions, more, manga_details, source_browse (a source's manga grid), global_search.",
+    "reader.launch_ad": "Ad when a chapter is opened. \"mode\": interstitial | rewarded | both (alternates) | off, plus optional every_n / cooldown_seconds.",
+    "interstitials.<spot>": "Interstitial at: open_manga (tap on a manga), open_source (a source opens), global_search (search all sources opens), install_extension (after an extension installs), add_repository (after a repository is added), tab_switch (bottom tab change), more_menu (tap on an item in the More menu).",
+    "interstitials.cooldown_seconds": "Number. Default minimum seconds between two full-screen ads (counted from when the previous ad closed). A spot's own cooldown_seconds overrides it. 0 = no limit.",
+    "interstitials.every_n": "Number. Default every-N for spots without their own every_n, counted across all of them. 0 = every time.",
+    "remove_ads_reward.enabled / minutes": "The green 'Remove ads' button (Library and More): watch a video, get this many minutes without pop-up ads.",
+    "review.min_opens_before_prompt": "Number. App opens before the rate-us prompt (Apple's system prompt) can appear.",
+    "review.days_between_prompts": "Number. Days to wait before asking for a rating again.",
+    "maintenance.title / message": "Text shown on the maintenance screen when maintenance.enabled is true (the app is blocked).",
+    "update.title / message": "Text shown on the update screen when update.enabled is true (the app is blocked).",
+    "update.app_store_url": "Text. App Store link the Update button opens.",
+    "telegram.title / message": "Text of the Telegram invite popup.",
+    "telegram.channel_url": "Text. Link opened by the Join button, e.g. https://t.me/yourchannel.",
+    "telegram.min_opens_before_prompt": "Number. App opens before the Telegram popup can appear.",
+    "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again.",
+    "placements": "Every ad spot is its own object: \"enabled\": true/false turns it on or off. Optional per spot: \"every_n\" (show only every Nth time, e.g. 3 = every 3rd tap), \"cooldown_seconds\" (overrides the global interstitial cooldown for this spot). Native spots also take \"size\": \"compact\" (one row) or \"large\" (big image/video).",
+    "reader.<spot>": "next_chapter_interstitial (going to another chapter), exit_interstitial (leaving the reader), chapter_end_native (native on the 'Chapter finished' screen).",
+    "app_features.apk_import": "true = show the 'Install .apk' buttons (Library and Extensions), false = hide them.",
+    "iap.enabled": "true = Pro features are locked behind the in-app purchase. false = everything is free (no paywall). People who already bought Pro always keep it and never see ads.",
+    "iap.products": "App Store product ids per plan: lifetime (non-consumable), yearly and monthly (auto-renewable subscriptions in one group). \"\" = plan not offered. The prices come from App Store Connect.",
+    "iap.highlight": "Plan pre-selected on the paywall with a 'Best value' tag: lifetime | yearly | monthly.",
+    "iap.pro_features.<feature>": "true = this feature needs Pro, false = free for everyone. downloads (offline chapters), reader_paged (paged left-to-right / right-to-left reading), global_search (search all sources), local_import (.cbz/.zip/.epub import), library_tools (library sort options + bulk mark read/remove), backup (create / restore backups). Pro always removes all ads.",
+    "iap.terms_url / privacy_url": "Links on the paywall (Apple requires both for subscriptions). Default terms = Apple's standard EULA."
+  },
+  "ad_network": "none",
+  "ad_ids": {
+    "admob_app_open": "ca-app-pub-3940256099942544/5575463023",
+    "admob_interstitial": "ca-app-pub-3940256099942544/4411468910",
+    "admob_rewarded": "ca-app-pub-3940256099942544/1712485313",
+    "admob_native": "ca-app-pub-3940256099942544/3986624511"
+  },
+  "app_open": {
+    "on_launch": true,
+    "on_return": true,
+    "cooldown_seconds": 0,
+    "launch_wait_seconds": 10
+  },
+  "native_ads": {
+    "library": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "updates": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "history": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "browse": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "extensions": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "more": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "manga_details": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "source_browse": {
+      "enabled": true,
+      "size": "compact"
+    },
+    "global_search": {
+      "enabled": true,
+      "size": "large"
+    }
+  },
+  "reader": {
+    "launch_ad": {
+      "mode": "both",
+      "every_n": 1
+    },
+    "next_chapter_interstitial": {
+      "enabled": true,
+      "every_n": 2
+    },
+    "exit_interstitial": {
+      "enabled": true,
+      "every_n": 1
+    },
+    "chapter_end_native": {
+      "enabled": true,
+      "size": "large"
+    }
+  },
+  "interstitials": {
+    "open_manga": {
+      "enabled": true,
+      "every_n": 3
+    },
+    "open_source": {
+      "enabled": true,
+      "every_n": 1
+    },
+    "global_search": {
+      "enabled": true,
+      "every_n": 1
+    },
+    "install_extension": {
+      "enabled": true,
+      "every_n": 1
+    },
+    "add_repository": {
+      "enabled": true,
+      "every_n": 1
+    },
+    "tab_switch": {
+      "enabled": false,
+      "every_n": 4
+    },
+    "more_menu": {
+      "enabled": true,
+      "every_n": 2
+    },
+    "cooldown_seconds": 30,
+    "every_n": 0
+  },
+  "remove_ads_reward": {
+    "enabled": false,
+    "minutes": 30
+  },
+  "review": {
+    "enabled": false,
+    "min_opens_before_prompt": 5,
+    "days_between_prompts": 7
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "Scheduled Maintenance",
+    "message": "We are performing maintenance. Please try again later.",
+    "show_retry": true
+  },
+  "update": {
+    "enabled": false,
+    "title": "New Version Available",
+    "message": "Please update to continue.",
+    "app_store_url": ""
+  },
+  "telegram": {
+    "enabled": false,
+    "title": "Join our Community",
+    "message": "Get updates and support on our Telegram channel!",
+    "channel_url": "",
+    "min_opens_before_prompt": 3,
+    "days_between_prompts": 3
+  },
+  "app_features": {
+    "apk_import": false
+  },
+  "iap": {
+    "enabled": true,
+    "products": {
+      "lifetime": "app.mihonios.mihoniosApp.pro.lifetime",
+      "yearly": "app.mihonios.mihoniosApp.pro.yearly",
+      "monthly": "app.mihonios.mihoniosApp.pro.monthly"
+    },
+    "highlight": "yearly",
+    "pro_features": {
+      "downloads": true,
+      "reader_paged": true,
+      "global_search": true,
+      "local_import": true,
+      "library_tools": true,
+      "backup": true
+    },
+    "terms_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "privacy_url": ""
+  }
+}
