@@ -27,8 +27,8 @@
     "iap.enabled": "true = Pro features are locked behind the in-app purchase. false = everything is free (no paywall). People who already bought Pro always keep it and never see ads.",
     "iap.revenuecat_api_key": "RevenueCat Apple public SDK key (appl_...). Empty = purchases off and Pro features stay locked.",
     "iap.entitlement": "RevenueCat entitlement id that means Pro (default pro).",
-    "iap.plans": "Packages of the current RevenueCat offering to show, in order: lifetime, yearly (Annual package), monthly. Remove one to hide it. Prices come from App Store Connect.",
-    "iap.highlight": "Plan pre-selected on the paywall with a 'Best value' tag: lifetime | yearly | monthly.",
+    "iap.plans": "Packages of the current RevenueCat offering to show, in order: lifetime, yearly (Annual package), monthly, weekly. Remove one to hide it. Prices come from App Store Connect.",
+    "iap.highlight": "Plan pre-selected on the paywall with a 'Best value' tag: lifetime | yearly | monthly | weekly.",
     "iap.pro_features.<feature>": "true = this feature needs Pro, false = free for everyone. downloads (offline chapters), reader_paged (paged left-to-right / right-to-left reading), global_search (search all sources), local_import (.cbz/.zip/.epub import), library_tools (library sort options + bulk mark read/remove), backup (create / restore backups). Pro always removes all ads.",
     "iap.terms_url / privacy_url": "Links on the paywall (Apple requires both for subscriptions). Default terms = Apple's standard EULA."
   },
@@ -169,13 +169,13 @@
     "enabled": true,
     "revenuecat_api_key": "",
     "entitlement": "pro",
-    "plans": ["lifetime", "yearly", "monthly"],
-    "highlight": "yearly",
+    "plans": ["lifetime", "monthly", "weekly"],
+    "highlight": "monthly",
     "pro_features": {
       "downloads": true,
       "reader_paged": true,
       "global_search": true,
-      "local_import": true,
+      "local_import": false,
       "library_tools": true,
       "backup": true
     },
