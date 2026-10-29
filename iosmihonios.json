@@ -167,8 +167,8 @@
   },
   "iap": {
     "enabled": true,
-    "revenuecat_api_key": "",
-    "entitlement": "pro",
+    "revenuecat_api_key": "appl_OUEkTdRYShOhKAnnsEpulXYbfut",
+    "entitlement": "mihou_pro",
     "plans": ["lifetime", "monthly", "weekly"],
     "highlight": "monthly",
     "pro_features": {
