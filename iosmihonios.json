@@ -6,9 +6,9 @@
     "app_open.on_launch / on_return": "App-open ad on a fresh start / when coming back to the app from the background.",
     "app_open.cooldown_seconds": "Number. Minimum seconds between two app-open ads. 0 = no limit.",
     "app_open.launch_wait_seconds": "Number. On a fresh start, how many seconds the app-open ad may take to load. If it is slower, it is skipped instead of popping up later. Default 10.",
-    "native_ads.<page>": "Native ad on that page: library, updates, history, browse (sources list), extensions, more, manga_details, source_browse (a source's manga grid), global_search.",
+    "native_ads.<page>": "Native ad on that page: library, history, more, manga_details.",
     "reader.launch_ad": "Ad when a chapter is opened. \"mode\": interstitial | rewarded | both (alternates) | off, plus optional every_n / cooldown_seconds.",
-    "interstitials.<spot>": "Interstitial at: open_manga (tap on a manga), open_source (a source opens), global_search (search all sources opens), install_extension (after an extension installs), add_repository (after a repository is added), tab_switch (bottom tab change), more_menu (tap on an item in the More menu).",
+    "interstitials.<spot>": "Interstitial at: open_manga (tap on a title), tab_switch (bottom tab change), more_menu (tap on an item in the More menu).",
     "interstitials.cooldown_seconds": "Number. Default minimum seconds between two full-screen ads (counted from when the previous ad closed). A spot's own cooldown_seconds overrides it. 0 = no limit.",
     "interstitials.every_n": "Number. Default every-N for spots without their own every_n, counted across all of them. 0 = every time.",
     "remove_ads_reward.enabled / minutes": "The green 'Remove ads' button (Library and More): watch a video, get this many minutes without pop-up ads.",
@@ -23,13 +23,13 @@
     "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again.",
     "placements": "Every ad spot is its own object: \"enabled\": true/false turns it on or off. Optional per spot: \"every_n\" (show only every Nth time, e.g. 3 = every 3rd tap), \"cooldown_seconds\" (overrides the global interstitial cooldown for this spot). Native spots also take \"size\": \"compact\" (one row) or \"large\" (big image/video).",
     "reader.<spot>": "next_chapter_interstitial (going to another chapter), exit_interstitial (leaving the reader), chapter_end_native (native on the 'Chapter finished' screen).",
-    "app_features.apk_import": "true = show the 'Install .apk' buttons (Library and Extensions), false = hide them.",
     "iap.enabled": "true = Pro features are locked behind the in-app purchase. false = everything is free (no paywall). People who already bought Pro always keep it and never see ads.",
     "iap.revenuecat_api_key": "RevenueCat Apple public SDK key (appl_...). Empty = purchases off and Pro features stay locked.",
     "iap.entitlement": "RevenueCat entitlement id that means Pro (default pro).",
+    "iap.paywall": "revenuecat = show the paywall designed in the RevenueCat dashboard (falls back to the built-in one if it cannot load), custom = always the built-in paywall.",
     "iap.plans": "Packages of the current RevenueCat offering to show, in order: lifetime, yearly (Annual package), monthly, weekly. Remove one to hide it. Prices come from App Store Connect.",
     "iap.highlight": "Plan pre-selected on the paywall with a 'Best value' tag: lifetime | yearly | monthly | weekly.",
-    "iap.pro_features.<feature>": "true = this feature needs Pro, false = free for everyone. downloads (offline chapters), reader_paged (paged left-to-right / right-to-left reading), global_search (search all sources), local_import (.cbz/.zip/.epub import), library_tools (library sort options + bulk mark read/remove), backup (create / restore backups). Pro always removes all ads.",
+    "iap.pro_features.<feature>": "true = this feature needs Pro, false = free for everyone. reader_paged (paged left-to-right / right-to-left reading), library_tools (library sort options + bulk mark read/unread), backup (back up / restore reading progress). Pro always removes all ads.",
     "iap.terms_url / privacy_url": "Links on the paywall (Apple requires both for subscriptions). Default terms = Apple's standard EULA."
   },
   "ad_network": "none",
@@ -50,19 +50,7 @@
       "enabled": true,
       "size": "compact"
     },
-    "updates": {
-      "enabled": true,
-      "size": "compact"
-    },
     "history": {
-      "enabled": true,
-      "size": "compact"
-    },
-    "browse": {
-      "enabled": true,
-      "size": "compact"
-    },
-    "extensions": {
       "enabled": true,
       "size": "compact"
     },
@@ -73,14 +61,6 @@
     "manga_details": {
       "enabled": true,
       "size": "compact"
-    },
-    "source_browse": {
-      "enabled": true,
-      "size": "compact"
-    },
-    "global_search": {
-      "enabled": true,
-      "size": "large"
     }
   },
   "reader": {
@@ -105,22 +85,6 @@
     "open_manga": {
       "enabled": true,
       "every_n": 3
-    },
-    "open_source": {
-      "enabled": true,
-      "every_n": 1
-    },
-    "global_search": {
-      "enabled": true,
-      "every_n": 1
-    },
-    "install_extension": {
-      "enabled": true,
-      "every_n": 1
-    },
-    "add_repository": {
-      "enabled": true,
-      "every_n": 1
     },
     "tab_switch": {
       "enabled": false,
@@ -162,20 +126,19 @@
     "min_opens_before_prompt": 3,
     "days_between_prompts": 3
   },
-  "app_features": {
-    "apk_import": false
-  },
   "iap": {
     "enabled": true,
     "revenuecat_api_key": "appl_OUEkTdRYShOhKAnnsEpulXYbfut",
     "entitlement": "mihou_pro",
-    "plans": ["lifetime", "monthly", "weekly"],
+    "paywall": "revenuecat",
+    "plans": [
+      "lifetime",
+      "monthly",
+      "weekly"
+    ],
     "highlight": "monthly",
     "pro_features": {
-      "downloads": true,
       "reader_paged": true,
-      "global_search": true,
-      "local_import": false,
       "library_tools": true,
       "backup": true
     },
