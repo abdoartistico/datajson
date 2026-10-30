@@ -17,10 +17,6 @@
     "maintenance.title / message": "Text shown on the maintenance screen when maintenance.enabled is true (the app is blocked).",
     "update.title / message": "Text shown on the update screen when update.enabled is true (the app is blocked).",
     "update.app_store_url": "Text. App Store link the Update button opens.",
-    "telegram.title / message": "Text of the Telegram invite popup.",
-    "telegram.channel_url": "Text. Link opened by the Join button, e.g. https://t.me/yourchannel.",
-    "telegram.min_opens_before_prompt": "Number. App opens before the Telegram popup can appear.",
-    "telegram.days_between_prompts": "Number. Days to wait before showing the Telegram popup again.",
     "placements": "Every ad spot is its own object: \"enabled\": true/false turns it on or off. Optional per spot: \"every_n\" (show only every Nth time, e.g. 3 = every 3rd tap), \"cooldown_seconds\" (overrides the global interstitial cooldown for this spot). Native spots also take \"size\": \"compact\" (one row) or \"large\" (big image/video).",
     "reader.<spot>": "next_chapter_interstitial (going to another chapter), exit_interstitial (leaving the reader), chapter_end_native (native on the 'Chapter finished' screen).",
     "iap.enabled": "true = Pro features are locked behind the in-app purchase. false = everything is free (no paywall). People who already bought Pro always keep it and never see ads.",
@@ -117,14 +113,6 @@
     "title": "New Version Available",
     "message": "Please update to continue.",
     "app_store_url": ""
-  },
-  "telegram": {
-    "enabled": false,
-    "title": "Join our Community",
-    "message": "Get updates and support on our Telegram channel!",
-    "channel_url": "",
-    "min_opens_before_prompt": 3,
-    "days_between_prompts": 3
   },
   "iap": {
     "enabled": true,
