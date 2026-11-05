@@ -23,7 +23,7 @@
     "levelplay_native_ad_unit": ""
   },
   "features": {
-    "ad_on_app_open": true,
+    "ad_on_app_open": false,
     "ad_on_home_native": true,
     "ad_on_home_banner": true,
     "ad_on_click": true
