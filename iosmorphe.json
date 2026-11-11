@@ -53,13 +53,35 @@
     "paywall_launch_frequency": 3
   },
   "adblock": {
-    "_about": "Extra YouTube ad blocking, applied on next app launch. block = url regexes; hide = CSS selectors; ad_classes/skip_selectors override the in-player ad guard; extra_js runs on YouTube pages.",
+    "_about": "Extra YouTube ad blocking, read at each app launch. block/hide/prune_keys are refreshed daily by .github/workflows/adblock.yml; put your own entries in manual_block / manual_hide / manual_prune_keys. ad_classes, skip_selectors, extra_js and prune_enabled are manual.",
     "block": [
-      "youtube\\.com/api/stats/ads"
+      "youtube\\.com/pagead/",
+      "youtube\\.com/youtubei/v1/player/ad_break"
     ],
-    "hide": "",
+    "hide": "#toast:has(> #text-container > yt-formatted-string#text.yt-notification-action-renderer), #contents > ytd-rich-item-renderer:has(> ytd-ad-slot-renderer), #description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer, #shopping-timely-shelf, #shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer), #sticker-layer, .ytd-section-list-renderer > .ytd-item-section-renderer > ytd-search-pyv-renderer.ytd-item-section-renderer, .ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer, .ytd-watch-flexy > .ytd-watch-next-secondary-results-renderer > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer, .ytd-watch-flexy > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer, .ytp-suggested-action > .ytp-suggested-action-badge, lazy-list > ad-slot-renderer, yt-overlay-product-sticker, ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer), ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer, ytm-rich-item-renderer > ad-slot-renderer, .grid.ytd-browse > #primary > .style-scope > .ytd-rich-grid-renderer > .ytd-rich-grid-renderer > .ytd-ad-slot-renderer, .ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope, ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope",
     "ad_classes": [],
     "skip_selectors": "",
-    "extra_js": ""
+    "extra_js": "",
+    "prune_keys": [
+      "playerResponse.adPlacements",
+      "playerResponse.playerAds",
+      "playerResponse.adSlots",
+      "adPlacements",
+      "playerAds",
+      "adSlots",
+      "important",
+      "legacyImportant",
+      "[].playerResponse.adPlacements",
+      "[].playerResponse.adSlots",
+      "endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.playerAds",
+      "endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.adPlacements",
+      "endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.adSlots"
+    ],
+    "_auto_updated": "2026-11-11",
+    "_auto_source": "uBlockOrigin/uAssets + EasyList",
+    "manual_block": [],
+    "manual_hide": [],
+    "manual_prune_keys": [],
+    "prune_enabled": true
   }
 }
