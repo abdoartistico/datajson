@@ -86,5 +86,10 @@
     "manual_hide": [],
     "manual_prune_keys": [],
     "prune_enabled": true
+  },
+  "player": {
+    "_about": "YouTube player. default_mode: lite (embedded player) or regular (page player), used until the user picks one in Settings. lite_enabled:false forces Regular for everyone.",
+    "default_mode": "lite",
+    "lite_enabled": true
   }
 }
