@@ -1,0 +1,29 @@
+name: Update YouTube ad-block rules
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: macos-latest   # WebKit is needed to validate the rules
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect rules from uBlock Origin and EasyList
+        run: python3 tools/update_adblock.py extract "$RUNNER_TEMP/candidates.json"
+      - name: Keep only rules WebKit accepts
+        run: swift tools/rulecheck.swift "$RUNNER_TEMP/candidates.json" "$RUNNER_TEMP/checked.json"
+      - name: Write them into iosmorphe.json
+        run: python3 tools/update_adblock.py apply "$RUNNER_TEMP/checked.json" iosmorphe.json
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "nothing new"; exit 0; fi
+          python3 -c "import json; json.load(open('iosmorphe.json'))"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Auto-update YouTube ad-block rules"
+          git push
