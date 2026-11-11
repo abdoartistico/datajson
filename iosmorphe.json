@@ -55,6 +55,7 @@
   "adblock": {
     "_about": "Extra YouTube ad blocking, read at each app launch. block/hide/prune_keys are refreshed daily by .github/workflows/adblock.yml; put your own entries in manual_block / manual_hide / manual_prune_keys. ad_classes, skip_selectors, extra_js and prune_enabled are manual.",
     "block": [
+      "[?&]ad_type=",
       "youtube\\.com/pagead/",
       "youtube\\.com/youtubei/v1/player/ad_break"
     ],
@@ -79,7 +80,9 @@
     ],
     "_auto_updated": "2026-11-11",
     "_auto_source": "uBlockOrigin/uAssets + EasyList",
-    "manual_block": [],
+    "manual_block": [
+      "[?&]ad_type="
+    ],
     "manual_hide": [],
     "manual_prune_keys": [],
     "prune_enabled": true
