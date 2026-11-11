@@ -9,10 +9,10 @@
     "admob_rewarded": "ca-app-pub-3940256099942544/1712485313"
   },
   "features": {
-    "ad_on_app_open": true,
+    "ad_on_app_open": false,
     "ad_on_channel_click": true,
     "ad_on_vod_tab": false,
-    "ad_on_home_native": true,
+    "ad_on_home_native": false,
     "ad_on_home_banner": false,
     "ad_on_rewarded": false
   },
@@ -51,5 +51,15 @@
     "entitlement": "morph browser Pro",
     "paywall_enabled": true,
     "paywall_launch_frequency": 3
+  },
+  "adblock": {
+    "_about": "Extra YouTube ad blocking, applied on next app launch. block = url regexes; hide = CSS selectors; ad_classes/skip_selectors override the in-player ad guard; extra_js runs on YouTube pages.",
+    "block": [
+      "youtube\\.com/api/stats/ads"
+    ],
+    "hide": "",
+    "ad_classes": [],
+    "skip_selectors": "",
+    "extra_js": ""
   }
 }
