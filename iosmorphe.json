@@ -92,6 +92,8 @@
     "default_mode": "lite",
     "lite_enabled": true,
     "music_lite_enabled": true,
-    "bg_guard_enabled": true
+    "bg_guard_enabled": true,
+    "music_native_enabled": true,
+    "music_default_player": "native"
   }
 }
