@@ -91,6 +91,7 @@
     "_about": "YouTube player. default_mode: lite (embedded player) or regular (page player), used until the user picks one in Settings. lite_enabled:false forces Regular for everyone.",
     "default_mode": "lite",
     "lite_enabled": true,
-    "music_lite_enabled": true
+    "music_lite_enabled": true,
+    "bg_guard_enabled": true
   }
 }
